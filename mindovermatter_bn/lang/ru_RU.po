@@ -2,82 +2,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mindovermatter_bn\n"
-"POT-Creation-Date: 2026-11-13 21:31+0300\n"
+"POT-Creation-Date: 2026-11-22 17:37+0300\n"
 "Last-Translator: midgardormr <midgardormr@gmail.com>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-
-#: bionics.json
-msgid "Tapayaxitilmàtli"
-msgstr "«Плащ хамелеона»"
-
-#. ~ Description for {'str': 'Tapayaxitilmàtli'}
-#: bionics.json
-msgid ""
-"Implants under your skin throughout your body that bend light around you "
-"when activated, making it much harder to spot you from a distance.  While "
-"not invisibility, it can keep you unseen when it counts.  Activate to toggle"
-" on."
-msgstr ""
-"Подкожные имплантаты по всему телу при активации преломляют свет, и заметить"
-" вас на расстоянии становится гораздо труднее. Полной невидимости они не "
-"дают, но могут скрыть вас в нужный момент. Активируйте, чтобы включить."
-
-#: bionics.json
-msgid "Ohuicatlachiyaliztimeh"
-msgstr "Оуикатлачиялистиме"
-
-#. ~ Description for {'str': 'Ohuicatlachiyaliztimeh'}
-#: bionics.json
-msgid ""
-"Minute quantities of matrix crystal interface with your optic nerves, "
-"allowing you to detect the presence of living beings that seek to do you "
-"harm.  Activate to toggle on."
-msgstr ""
-"Мельчайшие частицы матричного кристалла взаимодействуют с вашими зрительными"
-" нервами, позволяя чувствовать присутствие живых существ, которые хотят "
-"причинить вам вред. Активируйте, чтобы включить."
-
-#: bionics.json
-msgid "Tlacuallichicahualiztli Transformer"
-msgstr "Трансформатор Тлакуалличикауалистли"
-
-#. ~ Description for {'str': 'Tlacuallichicahualiztli Transformer'}
-#: bionics.json
-msgid ""
-"Your digestive system and power supply are interconnected; bionic energy is "
-"replenished by burning calories.  Can be toggled on and off at will."
-msgstr ""
-"Связывает вашу пищеварительную систему с бионической энергосистемой, "
-"позволяя пополнять запас энергии за счёт калорий. Модуль можно включать и "
-"выключать по желанию."
-
-#: bionics.json
-msgid "Teōchicāhualiztli Booster"
-msgstr "«Божественная сила»"
-
-#. ~ Description for {'str': 'Teōchicāhualiztli Booster'}
-#: bionics.json
-msgid ""
-"A series of implants along your skeleton and in major muscle groups can be "
-"activated to greatly increase your strength and agility.  Activate to toggle"
-" on."
-msgstr ""
-"Импланты вдоль скелета и в основных группах мышц при активации значительно "
-"повышают вашу силу и ловкость. Активируйте, чтобы включить."
-
-#: bionics.json
-msgid "Ikpitikayotecontli System"
-msgstr "Система Икпитикайотеконтли"
-
-#. ~ Description for {'str': 'Ikpitikayotecontli System'}
-#: bionics.json
-msgid "A Compact Bionics Module that increases your power capacity by 600 kJ."
-msgstr ""
-"Компактный бионический модуль, увеличивающий вашу энергоёмкость на 600 кДж."
 
 #: debug_psionic.json
 msgctxt "profession_male"
@@ -374,46 +305,23 @@ msgstr ""
 "За один раз способность действует на один МЕХАНИЧЕСКИЙ замок прямо рядом с вами: на двери с обычным замком или засовом, решётчатой двери, воротах из сетки-рабицы, металлической двери, замок которой можно вскрыть отмычкой, оружейном сейфе с механическим замком или запертой витрине. Во всех этих случаях нужна отмычка в руке. Для сейфа с кодовым дисковым замком достаточно одной руки. На электронные замки и считыватели карт способность не действует: в электрической схеме нет движущегося механизма, который можно было бы увидеть."
 
 #: fork_powers.json
-msgid "[Ψ]Locate Item"
-msgstr "[Ψ]Поиск предмета"
+msgid "[Ψ]Locate Items"
+msgstr "[Ψ]Поиск предметов"
 
-#. ~ Description for [Ψ]Locate Item
+#. ~ Description for [Ψ]Locate Items
 #: fork_powers.json
 msgid ""
-"Hold an object firmly in your mind -- a wrench, a can of beans, a coil of rope -- and feel for the nearest one.  Your senses ripple outward through walls and floors until they snag on it, and you know which way it lies and how far.\n"
+"A Clairsentient's mind never really stops listening.  Everything that comes within reach of your senses leaves an impression of what was lying there, and with practice you can search that memory: name an object, and recall every place you have sensed one.\n"
 "\n"
-"Name what you are looking for when you cast.  It matches the item's name the way your own search does, so \"rope\" finds any rope and \"9mm\" any 9mm ammunition.  Reaches <color_yellow>6 tiles, +2 per level</color> (36 at level 15); from level 5 it also reaches one floor up and down, and from level 10 two.  You learn the direction and distance of the nearest match, and of more matches as you improve.\n"
+"Name what you are looking for when you cast.  It matches the item's name the way your own search does, so \"rope\" finds any rope and \"9mm\" any 9mm ammunition, and it understands the same shortcuts: c: for category (\"c:books\"), m: for material (\"m:kevlar\"), q: for tool quality (\"q:hammering\"), k: for the skill a book teaches, b: for both of two terms (\"b:m:steel;c:tools\"), commas for any of several, and a leading - to exclude.  It can't search item notes (n:) or disassembly parts (d:).  Casting first sweeps everything around you, from the deepest basement to the rooftops, then searches your memory of places up to <color_yellow>20 map tiles away, +10 per level</color>.  Results are listed nearest first, with how long ago you sensed each one -- someone may have taken it since.  Choose a result to mark it on your map.\n"
 "\n"
-"It feels objects lying loose or stored in furniture, but not what is packed inside bags and boxes, nor anything stowed in a vehicle.\n"
-"\n"
-"Level 8 leads to Locate Items Thoroughly."
+"Your mind has been gathering these impressions since you awakened as a Clairsentient, from about three map tiles around wherever you go, on every floor above and below you.  It can only remember places you have actually been near.  It does not feel what is packed inside bags and boxes, nor anything stowed in a vehicle."
 msgstr ""
-"Сосредоточьтесь на образе предмета — гаечного ключа, банки фасоли, мотка верёвки — и почувствуйте ближайший такой предмет. Ваше восприятие расходится волнами сквозь стены и перекрытия, пока не зацепится за него, открывая направление и расстояние.\n"
+"Разум ясночувствующего никогда не перестаёт прислушиваться к миру. Всё, что попадает в пределы ваших чувств, оставляет воспоминание о лежавших там предметах. С практикой вы можете искать в этой памяти: назвать предмет и вспомнить все места, где вы его ощущали.\n"
 "\n"
-"При использовании способности укажите, что ищете. Название предмета сопоставляется с запросом так же, как при обычном поиске: «верёвка» найдёт любую верёвку, а «9 мм» — любые боеприпасы калибра 9 мм. Дальность — <color_yellow>6 клеток, +2 за уровень</color> (36 на 15-м уровне); с 5-го уровня поиск охватывает также один этаж сверху и снизу, а с 10-го — два. Вы узнаёте направление и расстояние до ближайшего совпадения, а с развитием способности — и до других.\n"
+"При применении способности укажите, что ищете. Поиск идёт по названию предмета, как при обычном поиске: «верёвка» найдёт любую верёвку, а «9 мм» — любые боеприпасы калибра 9 мм. Поддерживаются те же сокращения: c: для категории («c:books»), m: для материала («m:kevlar»), q: для качества инструмента («q:hammering»), k: для навыка, которому учит книга, b: для сочетания двух условий («b:m:steel;c:tools»), запятые для любого из нескольких вариантов и знак - в начале для исключения. Поиск по заметкам о предметах (n:) и деталям разборки (d:) недоступен. При применении способность сначала обследует всё вокруг, от самых глубоких подвалов до крыш, а затем ищет в вашей памяти места на расстоянии до <color_yellow>20 клеток глобальной карты, +10 за уровень</color>. Результаты перечисляются от ближайших к дальним с указанием того, как давно вы ощущали каждый предмет: с тех пор его могли забрать. Выберите результат, чтобы отметить его на карте.\n"
 "\n"
-"Способность ощущает предметы, лежащие отдельно или хранящиеся в мебели, но не содержимое сумок, коробок и транспорта.\n"
-"\n"
-"На 8-м уровне открывается «Углублённый поиск предметов»."
-
-#: fork_powers.json
-msgid "[Ψ]Locate Items Thoroughly"
-msgstr "[Ψ]Углублённый поиск предметов"
-
-#. ~ Description for [Ψ]Locate Items Thoroughly
-#: fork_powers.json
-msgid ""
-"A Clairsentient's mind never really stops listening.  Every place you have passed through has left an impression of what was lying there, and with practice you can finally search that memory: name an object, and recall every place you have sensed one.\n"
-"\n"
-"Casting first sweeps everything around you (your floor and the floors above and below), then searches your memory of places up to <color_yellow>20 map tiles away, +10 per level</color>.  Results are listed nearest first, with how long ago you sensed each one -- someone may have taken it since.  Choose a result to mark it on your map.\n"
-"\n"
-"Your mind has been gathering these impressions since you awakened as a Clairsentient, from about one map tile around wherever you go.  Like Locate Item, it does not feel what is packed inside bags and boxes, nor anything stowed in a vehicle."
-msgstr ""
-"Разум ясночувствующего никогда не перестаёт прислушиваться к миру. Каждое посещённое место оставляет впечатление о лежавших там вещах. С практикой вы наконец учитесь искать в этих воспоминаниях: назовите предмет — и вспомните все места, где ощущали его.\n"
-"\n"
-"При использовании способность сначала обследует всё вокруг вас на текущем этаже, а также этажом выше и ниже, затем ищет в воспоминаниях о местах на расстоянии до <color_yellow>20 клеток глобальной карты, +10 за уровень</color>. Результаты перечисляются от ближайших к самым далёким; для каждого указано, как давно вы ощущали предмет: за это время его уже могли забрать. Выберите результат, чтобы отметить место на карте.\n"
-"\n"
-"Ваш разум собирает эти впечатления с момента пробуждения ясночувствия, охватывая примерно одну клетку глобальной карты вокруг вас, куда бы вы ни пошли. Как и «Поиск предмета», эта способность не ощущает содержимое сумок, коробок и транспорта."
+"Ваш разум собирает эти впечатления с момента пробуждения ясночувствующих способностей, примерно в трёх клетках глобальной карты вокруг вас, на всех этажах выше и ниже. Он помнит только места, рядом с которыми вы действительно бывали. Предметы внутри сумок и коробок, а также в транспорте он не ощущает."
 
 #: fork_powers.json
 msgid "[Ψ]Mass Hydrothermosis"
@@ -679,30 +587,6 @@ msgstr "раздражённая"
 msgid "destroyed"
 msgstr "уничтоженная"
 
-#: materials.json
-msgid "ichcayolli"
-msgstr "ичкайолли"
-
-#: materials.json
-msgid "ripped"
-msgstr "порвано"
-
-#: materials.json
-msgid "cut"
-msgstr "порезано"
-
-#: materials.json
-msgid "torn"
-msgstr "разорванный"
-
-#: materials.json
-msgid "shredded"
-msgstr "изодранный"
-
-#: materials.json
-msgid "tattered"
-msgstr "изорванный"
-
 #: modinfo.json
 msgid "Mind Over Matter (BN)"
 msgstr "Разум превыше материи"
@@ -714,14 +598,14 @@ msgstr "Разум превыше материи"
 #| "Lua-based port of the Mind Over Matter mod from Cataclysm: DDA.  Pinned "
 #| "upstream: CDDA master 69df2e4 (2026-07-04)."
 msgid ""
-"Psionics: eight psychic power paths, 139 powers that unlock through use.  A "
+"Psionics: eight psychic power paths, 138 powers that unlock through use.  A "
 "Lua-based port of the Mind Over Matter mod from Cataclysm: DDA.  Pinned "
 "upstream: CDDA master 69df2e4 (2026-07-04)."
 msgstr ""
-"Псионика: восемь направлений и 139 способностей, открывающихся по мере "
-"использования. Перенос мода Mind Over Matter из Cataclysm: DDA на основе "
-"Lua. Зафиксированная версия исходного мода: ветка master CDDA, коммит "
-"69df2e4 (2026-07-04)."
+"Псионика: восемь направлений психических способностей, 138 способностей, "
+"открывающихся по мере использования. Перенос мода Mind Over Matter из "
+"Cataclysm: DDA на основе Lua. Зафиксированная версия исходного мода: CDDA "
+"master 69df2e4 (2026-07-04)."
 
 #: morale_types.json
 msgid "Thought-Editing"
@@ -1100,96 +984,6 @@ msgstr ""
 "всё гораздо хуже, чем говорит начальство, а твои дары помогли «убедить» "
 "охрану выпустить тебя даже при полной изоляции. Ты собиралась уехать куда-"
 "нибудь подальше от Новой Англии, но конец наступил быстрее, чем ты ожидала."
-
-#: professions.json
-msgctxt "profession_male"
-msgid "Itzcuāuhtli Corps Liaison, Yohualli Ehēcatl Division"
-msgstr "Связной корпуса «Обсидиановый орёл», дивизия «Ночь и ветер»"
-
-#: professions.json
-msgctxt "profession_female"
-msgid "Itzcuāuhtli Corps Liaison, Yohualli Ehēcatl Division"
-msgstr "Связная корпуса «Обсидиановый орёл», дивизия «Ночь и ветер»"
-
-#. ~ Profession (male Itzcuāuhtli Corps Liaison, Yohualli Ehēcatl Division)
-#. description
-#: professions.json
-msgctxt "prof_desc_male"
-msgid ""
-"The last thing you remember was inputting the jump coordinates into the "
-"tliltilhuicaātl drive and reaching out to initiate the transfer when there "
-"was a power surge and it felt like the entire ship was turning inside out.  "
-"Now, you have no idea where you are."
-msgstr ""
-"Последнее, что ты помнишь: вводишь координаты прыжка в двигатель "
-"Тлилтильуикаатль и тянешься запустить переход, когда происходит скачок "
-"энергии и кажется, будто весь корабль выворачивается наизнанку. Теперь ты "
-"понятия не имеешь, где находишься."
-
-#. ~ Profession (female Itzcuāuhtli Corps Liaison, Yohualli Ehēcatl Division)
-#. description
-#: professions.json
-msgctxt "prof_desc_female"
-msgid ""
-"The last thing you remember was inputting the jump coordinates into the "
-"tliltilhuicaātl drive and reaching out to initiate the transfer when there "
-"was a power surge and it felt like the entire ship was turning inside out.  "
-"Now, you have no idea where you are."
-msgstr ""
-"Последнее, что ты помнишь: вводишь координаты прыжка в двигатель "
-"Тлилтильуикаатль и тянешься запустить переход, когда происходит скачок "
-"энергии и кажется, будто весь корабль выворачивается наизнанку. Теперь ты "
-"понятия не имеешь, где находишься."
-
-#: professions.json
-msgctxt "profession_male"
-msgid "Cuāuhpilli Special Forces"
-msgstr "Боец спецназа Куаупилли"
-
-#: professions.json
-msgctxt "profession_female"
-msgid "Cuāuhpilli Special Forces"
-msgstr "Боец спецназа Куаупилли"
-
-#. ~ Profession (male Cuāuhpilli Special Forces) description
-#: professions.json
-msgctxt "prof_desc_male"
-msgid ""
-"You were on guard duty when the ship was preparing to enter Tliltilhuicaātl "
-"and had just braced for the jump when something went wrong.  The ship seemed"
-" like it was turning inside out, then you seemed like you were turning "
-"inside out, and suddenly you were planetside in the ruins of a dying world."
-"  You've served the Excān Tlahtōlōyān on a dozen worlds, taken five "
-"captives, and even have clearance for contact with huecachane civilizations,"
-" but none of that has prepared you for the Cataclysm"
-msgstr ""
-"Ты стоял на карауле, пока корабль готовился войти в Тлилтильуикаатль, и "
-"только приготовился к прыжку, как что-то пошло не так. Сперва будто "
-"вывернуло наизнанку корабль, затем тебя, а потом ты вдруг оказался на "
-"поверхности планеты, среди руин умирающего мира. Ты служил Тройственному "
-"союзу на дюжине миров, взял пятерых пленников и даже имеешь допуск к "
-"контактам с цивилизациями уэкачане, но ничто не подготовило тебя к "
-"Катаклизму"
-
-#. ~ Profession (female Cuāuhpilli Special Forces) description
-#: professions.json
-msgctxt "prof_desc_female"
-msgid ""
-"You were on guard duty when the ship was preparing to enter Tliltilhuicaātl "
-"and had just braced for the jump when something went wrong.  The ship seemed"
-" like it was turning inside out, then you seemed like you were turning "
-"inside out, and suddenly you were planetside in the ruins of a dying world."
-"  You've served the Excān Tlahtōlōyān on a dozen worlds, taken five "
-"captives, and even have clearance for contact with huecachane civilizations,"
-" but none of that has prepared you for the Cataclysm"
-msgstr ""
-"Ты стояла на карауле, пока корабль готовился войти в Тлилтильуикаатль, и "
-"только приготовилась к прыжку, как что-то пошло не так. Сперва будто "
-"вывернуло наизнанку корабль, затем тебя, а потом ты вдруг оказалась на "
-"поверхности планеты, среди руин умирающего мира. Ты служила Тройственному "
-"союзу на дюжине миров, взяла пятерых пленников и даже имеешь допуск к "
-"контактам с цивилизациями уэкачане, но ничто не подготовило тебя к "
-"Катаклизму"
 
 #: professions.json
 msgctxt "profession_male"
@@ -2855,56 +2649,6 @@ msgstr ""
 "твои способности проявились раньше, но до сих пор ты держала их в тайне. У "
 "тебя шесть случайных псионических задатков."
 
-#. ~ Scenario name for 'dimension_lost_fifth_sun'
-#: scenarios.json
-msgctxt "scenario_male"
-msgid "Dimension-Lost"
-msgstr "Затерянный в измерениях"
-
-#. ~ Scenario name for 'dimension_lost_fifth_sun'
-#: scenarios.json
-msgctxt "scenario_female"
-msgid "Dimension-Lost"
-msgstr "Затерянная в измерениях"
-
-#. ~ Scenario description for 'dimension_lost_fifth_sun'
-#: scenarios.json
-msgctxt "scen_desc_male"
-msgid ""
-"You don't understand what happened.  You were readying for a routine jump at"
-" the Far Hebrides transfer point when there was a power cascade in the drive"
-" and now you're here, on some other version of Tlalticpactli that may as "
-"well be one of the worse levels of Mictlān.  You need to find your way back "
-"home, but first you need to find a way to survive."
-msgstr ""
-"Ты не понимаешь, что произошло. Ты готовился к обычному прыжку на "
-"перевалочном пункте Дальних Гебрид, когда в приводе начался энергетический "
-"каскад, и теперь ты здесь, в какой-то другой версии Тлальтикпактли, которая "
-"вполне сойдёт за один из худших уровней Миктлана. Тебе нужно найти путь "
-"домой, но сначала — способ выжить."
-
-#. ~ Scenario description for 'dimension_lost_fifth_sun'
-#: scenarios.json
-msgctxt "scen_desc_female"
-msgid ""
-"You don't understand what happened.  You were readying for a routine jump at"
-" the Far Hebrides transfer point when there was a power cascade in the drive"
-" and now you're here, on some other version of Tlalticpactli that may as "
-"well be one of the worse levels of Mictlān.  You need to find your way back "
-"home, but first you need to find a way to survive."
-msgstr ""
-"Ты не понимаешь, что произошло. Ты готовилась к обычному прыжку на "
-"перевалочном пункте Дальних Гебрид, когда в приводе начался энергетический "
-"каскад, и теперь ты здесь, в какой-то другой версии Тлальтикпактли, которая "
-"вполне сойдёт за один из худших уровней Миктлана. Тебе нужно найти путь "
-"домой, но сначала — способ выжить."
-
-#. ~ Scenario start_name for 'dimension_lost_fifth_sun'
-#: scenarios.json
-msgctxt "start_name"
-msgid "???"
-msgstr "???"
-
 #. ~ Scenario name for 'hunted_forever_start'
 #: scenarios.json
 msgctxt "scenario_male"
@@ -3038,10 +2782,6 @@ msgid ""
 "Your ability to manipulate forces of energy often considered supernatural."
 msgstr ""
 "Ваше умение управлять энергиями, которые часто считают сверхъестественными."
-
-#: traps.json
-msgid "Dead Fifth Sun Achievement Trap"
-msgstr "Ловушка достижения «Мёртвое Пятое Солнце»"
 
 #: traps.json
 msgid "Kinetic Trap"
@@ -5240,7 +4980,7 @@ msgstr "Вы ошеломлены."
 msgid "You snap out of your trance."
 msgstr "Вы резко выходите из транса."
 
-#: effects/gen_effects.json
+#: effects/gen_effects.json effects/mom_engine_effects.json
 msgid "Telepathic Network"
 msgstr "Телепатическая сеть"
 
@@ -6114,6 +5854,15 @@ msgstr ""
 "Разум псионика направляет атаки этого существа, указывая на уязвимые места "
 "мертвецов."
 
+#. ~ desc of effect 'mom_network_pack'
+#: effects/mom_engine_effects.json
+msgid ""
+"This creature shares a telepathic link with its pack, reacting to danger "
+"before it arrives."
+msgstr ""
+"Это существо поддерживает телепатическую связь со своей стаей и реагирует на"
+" опасность ещё до её появления."
+
 #: furniture_and_terrain/appliances_as_furniture.json
 msgid "standing matrix lamp (off)"
 msgstr "матричный торшер (выкл.)"
@@ -6384,6 +6133,150 @@ msgstr "нацарапанное послание"
 msgid "Words left behind by some earlier survivor.  Examine it to read them."
 msgstr ""
 "Слова, оставленные кем-то из прежних выживших. Осмотрите, чтобы прочесть."
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "plastered wooden wall (scrawled message)"
+msgstr "оштукатуренная деревянная стена (нацарапанное послание)"
+
+#. ~ Description for plastered wooden wall (scrawled message)
+#. ~ Description for white wall (scrawled message)
+#. ~ Description for blue wall (scrawled message)
+#. ~ Description for green wall (scrawled message)
+#. ~ Description for purple wall (scrawled message)
+#. ~ Description for pink wall (scrawled message)
+#. ~ Description for red wall (scrawled message)
+#. ~ Description for yellow wall (scrawled message)
+#. ~ Description for dark plastered wooden wall (scrawled message)
+#. ~ Description for brick wall (scrawled message)
+#. ~ Description for concrete wall (scrawled message)
+#. ~ Description for reinforced concrete wall (scrawled message)
+#. ~ Description for simple concrete wall (scrawled message)
+#. ~ Description for metal wall (scrawled message)
+#. ~ Description for wooden wall (scrawled message)
+#. ~ Description for log wall (scrawled message)
+#. ~ Description for adobe wall (scrawled message)
+#. ~ Description for stone wall (scrawled message)
+#. ~ Description for field stone wall (scrawled message)
+#. ~ Description for simple metal wall (scrawled message)
+#. ~ Description for junk metal wall (scrawled message)
+#. ~ Description for rammed earth wall (scrawled message)
+#. ~ Description for screen mesh wall (scrawled message)
+#. ~ Description for pavement (scrawled message)
+#. ~ Description for yellow pavement (scrawled message)
+#. ~ Description for sidewalk (scrawled message)
+#. ~ Description for concrete (scrawled message)
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid ""
+"Words left behind by some earlier survivor are written here.  Examine it to "
+"read them."
+msgstr ""
+"Здесь написаны слова, оставленные одним из прежних выживших. Осмотрите, "
+"чтобы прочитать их."
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "white wall (scrawled message)"
+msgstr "белая стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "blue wall (scrawled message)"
+msgstr "синяя стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "green wall (scrawled message)"
+msgstr "зелёная стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "purple wall (scrawled message)"
+msgstr "фиолетовая стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "pink wall (scrawled message)"
+msgstr "розовая стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "red wall (scrawled message)"
+msgstr "красная стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "yellow wall (scrawled message)"
+msgstr "жёлтая стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "dark plastered wooden wall (scrawled message)"
+msgstr "тёмная оштукатуренная деревянная стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "brick wall (scrawled message)"
+msgstr "кирпичная стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "concrete wall (scrawled message)"
+msgstr "бетонная стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+#| msgid "reinforced concrete wall"
+msgid "reinforced concrete wall (scrawled message)"
+msgstr "железобетонная стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "simple concrete wall (scrawled message)"
+msgstr "простая бетонная стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "metal wall (scrawled message)"
+msgstr "металлическая стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "wooden wall (scrawled message)"
+msgstr "деревянная стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "log wall (scrawled message)"
+msgstr "бревенчатая стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "adobe wall (scrawled message)"
+msgstr "саманная стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "stone wall (scrawled message)"
+msgstr "каменная стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "field stone wall (scrawled message)"
+msgstr "каменная кладка (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "simple metal wall (scrawled message)"
+msgstr "простая металлическая стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "junk metal wall (scrawled message)"
+msgstr "стена из металлолома (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "rammed earth wall (scrawled message)"
+msgstr "земляная стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "screen mesh wall (scrawled message)"
+msgstr "сетчатая стена (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "pavement (scrawled message)"
+msgstr "асфальт (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "yellow pavement (scrawled message)"
+msgstr "жёлтый асфальт (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "sidewalk (scrawled message)"
+msgstr "тротуар (нацарапанное послание)"
+
+#: furniture_and_terrain/mom_graffiti_terrain.json
+msgid "concrete (scrawled message)"
+msgstr "бетон (нацарапанное послание)"
 
 #: furniture_and_terrain/psi_enclave.json
 msgid "chalk circle"
@@ -6833,106 +6726,6 @@ msgid_plural "refined electronoetic tool batteries"
 msgstr[0] "улучшенная электроноэтическая батарейка для инструментов"
 msgstr[1] "улучшенные электроноэтические батарейки для инструментов"
 msgstr[2] "улучшенных электроноэтических батареек для инструментов"
-
-#: items/bionics.json
-msgid "Strange Eye CBM"
-msgid_plural "Strange Eye CBMs"
-msgstr[0] "КБМ: Странный глаз"
-msgstr[1] "КБМ: Странный глаз"
-msgstr[2] "КБМ: Странный глаз"
-
-#. ~ Description for {'str': 'Strange Eye CBM'}
-#: items/bionics.json
-msgid ""
-"You can tell this CBM is meant to be installed around your eyes, but what "
-"exactly it will do, you have no idea."
-msgstr ""
-"Понятно, что этот КБМ предназначен для установки вокруг ваших глаз, но что "
-"именно он делает, вы понятия не имеете."
-
-#: items/bionics.json
-msgid "Ohuicatlachiyaliztimeh CBM"
-msgid_plural "Ohuicatlachiyaliztimeh CBMs"
-msgstr[0] "КБМ: Оуикатлачиялистиме"
-msgstr[1] "КБМ: Оуикатлачиялистиме"
-msgstr[2] "КБМ: Оуикатлачиялистиме"
-
-#. ~ Description for {'str': 'Ohuicatlachiyaliztimeh CBM'}
-#: items/bionics.json
-msgid ""
-"A set of Ohuicatlachiyaliztimeh, this CBM uses matrix technology to detect "
-"hostility from nearby targets, acting as an infallible IFF."
-msgstr ""
-"Набор имплантов «Оуикатлачиялистиме». Этот КБМ использует матричную "
-"технологию для обнаружения враждебности ближайших целей, служа безошибочной "
-"системой «свой — чужой»."
-
-#: items/bionics.json
-msgid "Ikpitikayotecontli System CBM"
-msgid_plural "Ikpitikayotecontli System CBMs"
-msgstr[0] "КБМ: Система Икпитикайотеконтли"
-msgstr[1] "КБМ: Система Икпитикайотеконтли"
-msgstr[2] "КБМ: Система Икпитикайотеконтли"
-
-#. ~ Description for {'str': 'Ikpitikayotecontli System CBM'}
-#: items/bionics.json
-#| msgid ""
-#| "An extremely-efficent form of bionic power storage, using integral matrix "
-#| "dust to increase the efficiency of possible storage multiple times."
-msgid ""
-"An extremely-efficient form of bionic power storage, using integral matrix "
-"dust to increase the efficiency of possible storage multiple times."
-msgstr ""
-"Чрезвычайно эффективный накопитель бионической энергии: встроенная матричная"
-" пыль позволяет в несколько раз увеличить его вместимость."
-
-#: items/bionics.json
-msgid "Tlacuallichicahualiztli Transformer CBM"
-msgid_plural "Tlacuallichicahualiztli Transformer CBMs"
-msgstr[0] "КБМ: Трансформатор Тлакуалличикауалистли"
-msgstr[1] "КБМ: Трансформатор Тлакуалличикауалистли"
-msgstr[2] "КБМ: Трансформатор Тлакуалличикауалистли"
-
-#. ~ Description for {'str': 'Tlacuallichicahualiztli Transformer CBM'}
-#: items/bionics.json
-msgid ""
-"A connection between the user's metabolism and their power storage allows "
-"this CBM to convert burned calories into bionic energy."
-msgstr ""
-"Связь между обменом веществ пользователя и накопителем энергии позволяет "
-"этому КБМ преобразовывать сжигаемые калории в бионическую энергию."
-
-#: items/bionics.json
-msgid "Teōchicāhualiztli Booster CBM"
-msgid_plural "Teōchicāhualiztli Booster CBMs"
-msgstr[0] "КБМ: Бустер «Божественная сила»"
-msgstr[1] "КБМ: Бустер «Божественная сила»"
-msgstr[2] "КБМ: Бустер «Божественная сила»"
-
-#. ~ Description for {'str': 'Teōchicāhualiztli Booster CBM'}
-#: items/bionics.json
-msgid ""
-"A series of implants along the skeleton and in major muscle groups allow a "
-"dramatic increase in the user's strength and agility."
-msgstr ""
-"Ряд имплантов вдоль скелета и в основных группах мышц позволяет значительно "
-"увеличить силу и ловкость пользователя."
-
-#: items/bionics.json
-msgid "Tapayaxitilmàtli CBM"
-msgid_plural "Tapayaxitilmàtli CBMs"
-msgstr[0] "КБМ: «Плащ хамелеона»"
-msgstr[1] "КБМ: «Плащ хамелеона»"
-msgstr[2] "КБМ: «Плащ хамелеона»"
-
-#. ~ Description for {'str': 'Tapayaxitilmàtli CBM'}
-#: items/bionics.json
-msgid ""
-"Implants under the skin throughout the body that bend light when activated, "
-"making it much harder to spot the user from a distance."
-msgstr ""
-"Подкожные импланты по всему телу, которые при активации искривляют свет, "
-"благодаря чему пользователя гораздо труднее заметить издалека."
 
 #: items/bn_lab_postit_portal_shim.json
 msgid "orange post-it note"
@@ -7620,23 +7413,6 @@ msgstr ""
 "Папка с документами, похожими на протоколы опытов или отчёты, под заголовком"
 " «ДЫМНЫЙ ВЕСТНИК». В основном здесь ничего особенного, но некоторые отрывки "
 "привлекают ваше внимание…"
-
-#: items/files_and_post_it.json
-msgid "note with strange writing"
-msgid_plural "notes with strange writing"
-msgstr[0] "записка со странными письменами"
-msgstr[1] "записки со странными письменами"
-msgstr[2] "записок со странными письменами"
-
-#. ~ Description for {'str': 'note with strange writing', 'str_pl': 'notes
-#. with strange writing'}
-#: items/files_and_post_it.json
-msgid ""
-"A piece of half-crumpled paper with writing on it.  You'd need to take a "
-"closer look to figure out what it says."
-msgstr ""
-"Наполовину смятый листок бумаги с надписью. Нужно рассмотреть его "
-"внимательнее, чтобы понять, что там написано."
 
 #: items/files_and_post_it.json
 msgid "report (matrix technology)"
@@ -9717,686 +9493,6 @@ msgstr ""
 " очистке пыли и затем… смешивании её с водой и употреблении внутрь? Остаётся"
 " надеяться, что вы от этого не ослепнете."
 
-#: items/teleporter_start_items.json
-msgid "Ch47 Fusion Pistol"
-msgid_plural "Ch47 Fusion Pistols"
-msgstr[0] "термоядерный пистолет Ch47"
-msgstr[1] "термоядерных пистолета Ch47"
-msgstr[2] "термоядерных пистолетов Ch47"
-
-#: items/teleporter_start_items.json
-msgid ""
-"The standard-issue officer's sidearm for the Imperial Navy, guaranteed "
-"manufactured on Tlalticpactli itself by scions of the Huey Calpulli, the "
-"Ch47 replaced the earlier Ch41 and is widely renowned for its accuracy and "
-"ease of maintenance.  This particular Ch47 even bears an eagle and snake on "
-"the grip, indicating it was produced in a factory in Anáhuac.  Hopefully "
-"it'll make a good melee weapon as well."
-msgstr ""
-"Штатное личное оружие офицеров Имперского флота, с гарантией изготовленное "
-"на самом Тлальтикпактли потомками Великих кальпулли. Ch47 сменил прежний "
-"Ch41 и широко известен точностью и простотой обслуживания. На рукояти этого "
-"Ch47 даже есть орёл и змея — знак производства на заводе в Анауаке. Остаётся"
-" надеяться, что он сгодится и для ближнего боя."
-
-#: items/teleporter_start_items.json items/weapons.json
-msgctxt "gun_type_type"
-msgid "pistol"
-msgstr "пистолеты"
-
-#: items/teleporter_start_items.json
-msgid "Ch47 power pack"
-msgid_plural "Ch47 power packs"
-msgstr[0] "блок питания Ch47"
-msgstr[1] "блока питания Ch47"
-msgstr[2] "блоков питания Ch47"
-
-#. ~ Description for {'str': 'Ch47 power pack'}
-#: items/teleporter_start_items.json
-msgid "A power pack for the Ch47."
-msgstr "Блок питания для Ch47."
-
-#: items/teleporter_start_items.json
-msgid "Ch47 power cartridge"
-msgid_plural "Ch47 power cartridges"
-msgstr[0] "энергокартридж Ch47"
-msgstr[1] "энергокартриджа Ch47"
-msgstr[2] "энергокартриджей Ch47"
-
-#. ~ Description for {'str': 'Ch47 power cartridge'}
-#: items/teleporter_start_items.json
-msgid ""
-"Power cartridges for the Ch47.  You had better make every shot count, "
-"because there's no way you're finding any more of these."
-msgstr ""
-"Энергокартриджи для Ch47. Постарайтесь не тратить ни выстрела зря: больше "
-"таких вам точно не найти."
-
-#: items/teleporter_start_items.json
-msgid "Ch47 fusion shot"
-msgstr "термоядерный выстрел Ch47"
-
-#: items/teleporter_start_items.json
-msgid "bootleg Ch47 power cartridge"
-msgid_plural "bootleg Ch47 power cartridges"
-msgstr[0] "нелицензионный энергокартридж Ch47"
-msgstr[1] "нелицензионных энергокартриджа Ch47"
-msgstr[2] "нелицензионных энергокартриджей Ch47"
-
-#. ~ Description for {'str': 'bootleg Ch47 power cartridge'}
-#: items/teleporter_start_items.json
-msgid ""
-"A hand-built substitute for the real thing: a battery cell and a pinch of "
-"thermite crammed into a shop-milled casing.  It'll cycle through the Ch47 "
-"just fine, but without the genuine fusion-cell chemistry behind it, the "
-"discharge is weaker and noticeably less precise."
-msgstr ""
-"Самодельный аналог оригинального энергокартриджа: батарейка и щепотка "
-"термита в корпусе, выточенном в мастерской. В Ch47 он работает исправно, но "
-"без настоящей термоядерной ячейки разряд слабее и заметно менее точен."
-
-#: items/teleporter_start_items.json
-msgid "M12 \"Cochmamauhtia\" Pistol"
-msgid_plural "M12 \"Cochmamauhtia\" Pistols"
-msgstr[0] "пистолет M12 «Кошмар»"
-msgstr[1] "пистолета M12 «Кошмар»"
-msgstr[2] "пистолетов M12 «Кошмар»"
-
-#: items/teleporter_start_items.json
-msgid ""
-"The M12 was designed as a less-than-lethal alternative to more dangerous "
-"forms of crowd pacification, able to disable a target for up to a minute "
-"with a single shot and few to no permanent effects.  While it cannot be said"
-" to be nonlethal because it is not safe to use on targets with heart "
-"conditions or epilepsy, it is a great improvement over the previous X04 "
-"\"Tecuacuilli\" which, on unfortunately not-rare-enough occasions, could "
-"cause permanent paralysis.  On this world, though, you don't think the M12's"
-" lethality or lack thereof is going to be much of a concern."
-msgstr ""
-"M12 создавался как менее смертоносная альтернатива опасным средствам "
-"усмирения толпы: один выстрел выводит цель из строя на срок до минуты почти "
-"без долгосрочных последствий. Несмертельным его всё же не назвать: он опасен"
-" для людей с болезнями сердца или эпилепсией, однако это большой шаг вперёд "
-"по сравнению с прежним X04 «Идол», который, к сожалению, не так уж редко "
-"вызывал необратимый паралич. Впрочем, в этом мире смертельность M12 вряд ли "
-"будет вас особенно заботить."
-
-#: items/teleporter_start_items.json
-msgid "M12 power pack"
-msgid_plural "M12 power packs"
-msgstr[0] "блок питания M12"
-msgstr[1] "блока питания M12"
-msgstr[2] "блоков питания M12"
-
-#. ~ Description for {'str': 'M12 power pack'}
-#: items/teleporter_start_items.json
-msgid "A power pack for the M12."
-msgstr "Энергоблок для M12."
-
-#: items/teleporter_start_items.json
-msgid "M12 power cartridge"
-msgid_plural "M12 power cartridges"
-msgstr[0] "энергокартридж M12"
-msgstr[1] "энергокартриджа M12"
-msgstr[2] "энергокартриджей M12"
-
-#. ~ Description for {'str': 'M12 power cartridge'}
-#: items/teleporter_start_items.json
-msgid ""
-"Power cartridges for the M12.  You had better make every shot count, because"
-" there's no way you're finding any more of these."
-msgstr ""
-"Энергокартриджи для M12. Постарайтесь не тратить ни выстрела зря: больше "
-"таких вам точно не найти."
-
-#: items/teleporter_start_items.json
-msgid "M12 neural shot"
-msgstr "нейронный выстрел M12"
-
-#: items/teleporter_start_items.json
-msgid "bootleg M12 power cartridge"
-msgid_plural "bootleg M12 power cartridges"
-msgstr[0] "нелицензионный энергокартридж M12"
-msgstr[1] "нелицензионных энергокартриджа M12"
-msgstr[2] "нелицензионных энергокартриджей M12"
-
-#. ~ Description for {'str': 'bootleg M12 power cartridge'}
-#: items/teleporter_start_items.json
-msgid ""
-"A crude reload for the M12: a battery cell and a loop of scavenged wire "
-"packed into a resized casing.  Enough of a jolt to cycle the pistol, but a "
-"rougher, less focused shock than the real cartridge delivers."
-msgstr ""
-"Примитивный энергетический картридж для M12: батарейка и петля проволоки из "
-"подручного лома в корпусе, подогнанном под нужный размер. Заряда хватает для"
-" работы пистолета, но удар получается грубее и менее направленным, чем у "
-"настоящего картриджа."
-
-#: items/teleporter_start_items.json
-msgid "G-Tz77 \"Tlapetlaniliztli\" battle rifle"
-msgid_plural "G-Tz77 \"Tlapetlaniliztli\" battle rifles"
-msgstr[0] "боевая винтовка G-Tz77 «Молния»"
-msgstr[1] "боевые винтовки G-Tz77 «Молния»"
-msgstr[2] "боевых винтовок G-Tz77 «Молния»"
-
-#: items/teleporter_start_items.json
-msgid ""
-"A shipboard battle rifle, whose non-kinetic ammunition was designed to avoid"
-" puncturing ship hulls during engagements.  The G-Tz77 has been a mainstay "
-"of the Imperial Navy for decades at this point and seen service on the "
-"surface of and in orbit around dozens of worlds.  This is just one more in "
-"its long history of protecting the Ēxcān Tlahtōlōyān."
-msgstr ""
-"Корабельная боевая винтовка с некинетическими боеприпасами, разработанными "
-"так, чтобы не пробивать обшивку кораблей во время боя. G-Tz77 десятилетиями "
-"остаётся одним из основных видов оружия Имперского флота и служила на "
-"поверхности и орбитах десятков миров. Это лишь очередная глава её долгой "
-"истории защиты Тройственного союза."
-
-#: items/teleporter_start_items.json items/weapons.json
-msgid "semi-auto"
-msgstr "полуавтомат"
-
-#: items/teleporter_start_items.json
-msgid "auto"
-msgstr "авто"
-
-#: items/teleporter_start_items.json items/weapons.json
-msgctxt "gun_type_type"
-msgid "rifle"
-msgstr "винтовка"
-
-#: items/teleporter_start_items.json
-msgid "G-Tz77 power pack"
-msgid_plural "G-Tz77 power packs"
-msgstr[0] "энергоблок G-Tz77"
-msgstr[1] "энергоблока G-Tz77"
-msgstr[2] "энергоблоков G-Tz77"
-
-#. ~ Description for {'str': 'G-Tz77 power pack'}
-#: items/teleporter_start_items.json
-msgid "A power pack for the G-Tz77."
-msgstr "Энергоблок для G-Tz77."
-
-#: items/teleporter_start_items.json
-msgid "G-Tz77 power cartridge"
-msgid_plural "G-Tz77 power cartridges"
-msgstr[0] "энергокартридж G-Tz77"
-msgstr[1] "энергокартриджа G-Tz77"
-msgstr[2] "энергокартриджей G-Tz77"
-
-#. ~ Description for {'str': 'G-Tz77 power cartridge'}
-#: items/teleporter_start_items.json
-msgid ""
-"Power cartridges for the G-Tz77.  You had better make every shot count, "
-"because there's no way you're finding any more of these."
-msgstr ""
-"Энергокартриджи для G-Tz77. Постарайтесь не тратить ни выстрела зря: больше "
-"таких вам точно не найти."
-
-#: items/teleporter_start_items.json
-msgid "bootleg G-Tz77 power cartridge"
-msgid_plural "bootleg G-Tz77 power cartridges"
-msgstr[0] "нелицензионный энергокартридж G-Tz77"
-msgstr[1] "нелицензионных энергокартриджа G-Tz77"
-msgstr[2] "нелицензионных энергокартриджей G-Tz77"
-
-#. ~ Description for {'str': 'bootleg G-Tz77 power cartridge'}
-#: items/teleporter_start_items.json
-msgid ""
-"A hand-wound substitute cartridge for the G-Tz77: a battery cell and a coil "
-"of copper wire, with none of the genuine cartridge's exotic resonator "
-"inside.  It still throws a real jolt, but noticeably weaker and less precise"
-" than the genuine article."
-msgstr ""
-"Самодельный заменитель патрона для G-Tz77: батарейка и намотанная вручную "
-"катушка медной проволоки без экзотического резонатора настоящего патрона. Он"
-" по-прежнему бьёт ощутимым разрядом, но заметно слабее и менее точно, чем "
-"оригинал."
-
-#: items/teleporter_start_items.json
-msgid "tlapetlaniliztli ammo"
-msgstr "патроны для «Молнии»"
-
-#: items/teleporter_start_items.json
-msgid "Imperial Navy battle helmet"
-msgid_plural "Imperial Navy battle helmets"
-msgstr[0] "боевой шлем Имперского флота"
-msgstr[1] "боевых шлема Имперского флота"
-msgstr[2] "боевых шлемов Имперского флота"
-
-#. ~ Use action transform.menu_text for {'str': 'Imperial Navy battle
-#. helmet'}.
-#. ~ Use action transform.menu_text for {'str': 'Imperial Navy battle helmet
-#. (active)', 'str_pl': 'Imperial Navy battle helmets (active)'}.
-#. ~ Use action transform.menu_text for {'str': 'pāncahcallō torso armor',
-#. 'str_pl': 'sets of pāncahcallō torso armor'}.
-#. ~ Use action transform.menu_text for {'str': 'pāncahcallō torso armor
-#. (active)', 'str_pl': 'sets of pāncahcallō torso armor (active)'}.
-#. ~ Use action transform.menu_text for {'str': 'strange body armor',
-#. 'str_pl': 'sets of strange body armor'}.
-#. ~ Use action transform.menu_text for {'str': 'strange body armor (active)',
-#. 'str_pl': 'sets of strange body armor (active)'}.
-#. ~ Use action transform.menu_text for {'str': 'shield belt'}.
-#. ~ Use action transform.menu_text for {'str': 'shield belt (active)',
-#. 'str_pl': 'shield belts (active)'}.
-#. ~ Use action transform.menu_text for {'str': 'suppression belt'}.
-#. ~ Use action transform.menu_text for {'str': 'suppression belt (active)',
-#. 'str_pl': 'suppression belts (active)'}.
-#: items/teleporter_start_items.json items/armor/belt.json
-msgid "Flip the switch"
-msgstr "Щёлкнуть переключателем"
-
-#. ~ Use action transform.msg for {'str': 'Imperial Navy battle helmet'}.
-#: items/teleporter_start_items.json
-msgid "You flip the switch and activate the helmet's functions."
-msgstr "Вы щёлкаете переключателем и включаете функции шлема."
-
-#. ~ Use action transform.need_charges_msg for {'str': 'Imperial Navy battle
-#. helmet'}.
-#. ~ Use action transform.need_charges_msg for {'str': 'pāncahcallō torso
-#. armor', 'str_pl': 'sets of pāncahcallō torso armor'}.
-#. ~ Use action transform.need_charges_msg for {'str': 'strange body armor',
-#. 'str_pl': 'sets of strange body armor'}.
-#. ~ Use action transform.need_charges_msg for {'str': 'shield belt'}.
-#. ~ Use action transform.need_charges_msg for {'str': 'suppression belt'}.
-#: items/teleporter_start_items.json items/armor/belt.json
-msgid "The switch clicks but nothing happens."
-msgstr "Переключатель щёлкает, но ничего не происходит."
-
-#. ~ Description for {'str': 'Imperial Navy battle helmet'}
-#: items/teleporter_start_items.json
-msgid ""
-"An all-encompassing helmet, standard issue for Imperial warrior orders.  "
-"Containing integral hearing protection and air filtration while still "
-"leaving your mouth free, highlights distant targets to provide easier "
-"targeting in battlefield conditions, has integral nightvision and thermal "
-"sensing, provides some protection against telepathic assault, and looks "
-"great while doing it.  This one has the eagle and stars of the Itzcuāuhtli "
-"Corps on it."
-msgstr ""
-"Закрытый шлем, штатный для имперских воинских орденов. В нём есть встроенная"
-" защита слуха и фильтрация воздуха, хотя рот остаётся открытым. Он "
-"подсвечивает дальние цели для удобства прицеливания в бою, оснащён ночным и "
-"тепловым зрением, немного защищает от телепатических атак и при этом отлично"
-" выглядит. На этом шлеме изображены орёл и звёзды корпуса «Обсидиановый "
-"орёл»."
-
-#: items/teleporter_start_items.json
-msgid "Imperial Navy battle helmet (active)"
-msgid_plural "Imperial Navy battle helmets (active)"
-msgstr[0] "боевой шлем Имперского флота (вкл.)"
-msgstr[1] "боевых шлема Имперского флота (вкл.)"
-msgstr[2] "боевых шлемов Имперского флота (вкл.)"
-
-#. ~ Use action transform.msg for {'str': 'Imperial Navy battle helmet
-#. (active)', 'str_pl': 'Imperial Navy battle helmets (active)'}.
-#: items/teleporter_start_items.json
-msgid "You flip the switch and deactivate the helmet's functions."
-msgstr "Вы щёлкаете переключателем и отключаете функции шлема."
-
-#. ~ Description for {'str': 'Imperial Navy battle helmet (active)', 'str_pl':
-#. 'Imperial Navy battle helmets (active)'}
-#: items/teleporter_start_items.json
-msgid ""
-"An all-encompassing helmet, standard issue for Imperial warrior orders.  "
-"Containing integral hearing protection and air filtration while still "
-"leaving your mouth free, highlights distant targets to provide easier "
-"targeting in battlefield conditions, has integral nightvision and thermal "
-"sensing, provides some protection against telepathic assault, and looks "
-"great while doing it.  This one has the eagle and stars of the Itzcuāuhtli "
-"Corps on it.  It is currently active."
-msgstr ""
-"Закрытый шлем, штатный для имперских воинских орденов. В нём есть встроенная"
-" защита слуха и фильтрация воздуха, хотя рот остаётся открытым. Он "
-"подсвечивает дальние цели для удобства прицеливания в бою, оснащён ночным и "
-"тепловым зрением, немного защищает от телепатических атак и при этом отлично"
-" выглядит. На этом шлеме изображены орёл и звёзды корпуса «Обсидиановый "
-"орёл». Сейчас он включён."
-
-#: items/teleporter_start_items.json
-msgid "pāncahcallō torso armor"
-msgid_plural "sets of pāncahcallō torso armor"
-msgstr[0] "доспех панкакалло"
-msgstr[1] "доспеха панкакалло"
-msgstr[2] "доспехов панкакалло"
-
-#. ~ Use action transform.msg for {'str': 'pāncahcallō torso armor', 'str_pl':
-#. 'sets of pāncahcallō torso armor'}.
-#: items/teleporter_start_items.json
-msgid "You flip the switch and activate the ehēcatepantli barrier."
-msgstr "Вы щёлкаете переключателем и включаете барьер эекатепантли."
-
-#. ~ Description for {'str': 'pāncahcallō torso armor', 'str_pl': 'sets of
-#. pāncahcallō torso armor'}
-#: items/teleporter_start_items.json
-msgid ""
-"A set of torso and upper-arm armor made with mixed leather overlaid with "
-"sheets of ichcayolli, pāncahcallō armor derives its effectiveness from the "
-"integral generator capable of projecting an ehēcatepantli barrier that "
-"provides most of the armor's protection."
-msgstr ""
-"Доспех панкакалло для торса и верхней части рук изготовлен из разных видов "
-"кожи, покрытых пластинами ичкайолли. Основную защиту обеспечивает встроенный"
-" генератор барьера эекатепантли."
-
-#: items/teleporter_start_items.json
-msgid "pāncahcallō torso armor (active)"
-msgid_plural "sets of pāncahcallō torso armor (active)"
-msgstr[0] "доспех панкакалло (вкл.)"
-msgstr[1] "доспеха панкакалло (вкл.)"
-msgstr[2] "доспехов панкакалло (вкл.)"
-
-#. ~ Use action transform.msg for {'str': 'pāncahcallō torso armor (active)',
-#. 'str_pl': 'sets of pāncahcallō torso armor (active)'}.
-#: items/teleporter_start_items.json
-msgid "You flip the switch and deactivate the ehēcatepantli barrier."
-msgstr "Вы щёлкаете переключателем и отключаете барьер эекатепантли."
-
-#. ~ Description for {'str': 'pāncahcallō torso armor (active)', 'str_pl':
-#. 'sets of pāncahcallō torso armor (active)'}
-#: items/teleporter_start_items.json
-msgid ""
-"A set of torso and upper-arm armor made with mixed leather overlaid with "
-"sheets of ichcayolli, pāncahcallō armor derives its effectiveness from the "
-"integral generator capable of projecting an ehēcatepantli barrier that "
-"provides most of the armor's protection.  The ehēcatepantli is currently "
-"active."
-msgstr ""
-"Доспех панкакалло для торса и верхней части рук изготовлен из разных видов "
-"кожи, покрытых пластинами ичкайолли. Основную защиту обеспечивает встроенный"
-" генератор барьера эекатепантли. Сейчас барьер эекатепантли включён."
-
-#: items/teleporter_start_items.json
-msgid "strange body armor"
-msgid_plural "sets of strange body armor"
-msgstr[0] "странный защитный костюм"
-msgstr[1] "странных защитных костюма"
-msgstr[2] "странных защитных костюмов"
-
-#. ~ Use action transform.msg for {'str': 'strange body armor', 'str_pl':
-#. 'sets of strange body armor'}.
-#. ~ Use action transform.msg for {'str': 'strange body armor (active)',
-#. 'str_pl': 'sets of strange body armor (active)'}.
-#: items/teleporter_start_items.json
-msgid "You flip the switch."
-msgstr "Вы щёлкаете переключателем."
-
-#. ~ Description for {'str': 'strange body armor', 'str_pl': 'sets of strange
-#. body armor'}
-#: items/teleporter_start_items.json
-msgid ""
-"A set of leather armor covered in some kind of very stiff white cloth.  A "
-"small textured box is attached to the left side, easily accessible with "
-"either hand.  The box has a switch of some kind and several odd pictographs "
-"around the switch."
-msgstr ""
-"Кожаный защитный костюм, покрытый какой-то очень жёсткой белой тканью. Слева"
-" прикреплена небольшая коробка с рельефной поверхностью, до которой легко "
-"дотянуться любой рукой. На коробке есть некий переключатель, а вокруг него —"
-" несколько странных пиктограмм."
-
-#: items/teleporter_start_items.json
-msgid "strange body armor (active)"
-msgid_plural "sets of strange body armor (active)"
-msgstr[0] "странный защитный костюм (вкл.)"
-msgstr[1] "странных защитных костюма (вкл.)"
-msgstr[2] "странных защитных костюмов (вкл.)"
-
-#. ~ Description for {'str': 'strange body armor (active)', 'str_pl': 'sets of
-#. strange body armor (active)'}
-#: items/teleporter_start_items.json
-msgid ""
-"A set of leather armor covered in some kind of very stiff white cloth.  A "
-"small textured box is attached to the left side, easily accessible with "
-"either hand.  The box has a switch of some kind and several odd pictographs "
-"around the switch.  The switch is currently flipped."
-msgstr ""
-"Кожаный защитный костюм, покрытый какой-то очень жёсткой белой тканью. Слева"
-" прикреплена небольшая коробка с рельефной поверхностью, до которой легко "
-"дотянуться любой рукой. На коробке есть некий переключатель, а вокруг него —"
-" несколько странных пиктограмм. Сейчас переключатель переведён в другое "
-"положение."
-
-#: items/teleporter_start_items.json
-msgid "Itzcuāuhtli Corps tilmàtli"
-msgid_plural "Itzcuāuhtli Corps tilmàtli"
-msgstr[0] "тильма корпуса «Обсидиановый орёл»"
-msgstr[1] "тильмы корпуса «Обсидиановый орёл»"
-msgstr[2] "тильм корпуса «Обсидиановый орёл»"
-
-#. ~ Description for {'str_sp': 'Itzcuāuhtli Corps tilmàtli'}
-#: items/teleporter_start_items.json
-msgid ""
-"A formal dress cape for the Itzcuāuhtli Corps in crimson and gold, with the "
-"eagle's head over a field of stars insignia on the left shoulder, worn by "
-"generations of those who sought out new worlds in service to the Huey "
-"Tlatoani and the Ēxcān Tlahtōlōyān.  You're pretty sure this is the furthest"
-" anyone wearing one has ever been from Anáhuac."
-msgstr ""
-"Парадная накидка корпуса «Обсидиановый орёл» багряного и золотого цветов, с "
-"эмблемой орлиной головы на звёздном поле на левом плече. Её носили поколения"
-" первооткрывателей миров на службе Верховного тлатоани и Тройственного "
-"союза. Вы почти уверены, что никто в такой накидке ещё не забирался так "
-"далеко от Анауака."
-
-#: items/teleporter_start_items.json
-msgid "Imperial navy cap"
-msgid_plural "Imperial navy caps"
-msgstr[0] "фуражка Имперского флота"
-msgstr[1] "фуражки Имперского флота"
-msgstr[2] "фуражек Имперского флота"
-
-#. ~ Description for {'str': 'Imperial navy cap'}
-#: items/teleporter_start_items.json
-msgid ""
-"A flat crimson hat worn by members of the Imperial navy at formal events.  "
-"This one has the black circle of the Yohualli Ehēcatl on it."
-msgstr ""
-"Плоская багряная фуражка, которую служащие Имперского флота носят на "
-"официальных мероприятиях. На этой изображён чёрный круг дивизии «Ночь и "
-"ветер»."
-
-#: items/teleporter_start_items.json
-msgid "Ch47 holster"
-msgid_plural "Ch47 holsters"
-msgstr[0] "кобура Ch47"
-msgstr[1] "кобуры Ch47"
-msgstr[2] "кобур Ch47"
-
-#. ~ Description for {'str': 'Ch47 holster'}
-#: items/teleporter_start_items.json
-msgid ""
-"A holster for the Ch47.  You could put one of the primitive local ranged "
-"weapons in here too, if you had to."
-msgstr ""
-"Кобура для Ch47. При необходимости в неё можно положить и какое-нибудь "
-"примитивное местное стрелковое оружие."
-
-#: items/teleporter_start_items.json
-msgid "M12 holster"
-msgid_plural "M12 holsters"
-msgstr[0] "кобура M12"
-msgstr[1] "кобуры M12"
-msgstr[2] "кобур M12"
-
-#. ~ Description for {'str': 'M12 holster'}
-#: items/teleporter_start_items.json
-msgid ""
-"A holster for the M12.  You could put one of the primitive local ranged "
-"weapons in here too, if you had to."
-msgstr ""
-"Кобура для M12. При необходимости в неё можно положить и какое-нибудь "
-"примитивное местное стрелковое оружие."
-
-#: items/teleporter_start_items.json
-msgid "Yohualli Ehēcatl division tunic"
-msgid_plural "Yohualli Ehēcatl division tunics"
-msgstr[0] "мундир дивизии «Ночь и ветер»"
-msgstr[1] "мундира дивизии «Ночь и ветер»"
-msgstr[2] "мундиров дивизии «Ночь и ветер»"
-
-#. ~ Description for {'str': 'Yohualli Ehēcatl division tunic'}
-#: items/teleporter_start_items.json
-msgid ""
-"A dress tunic, in gold and crimson, slashed with black bars.  This would "
-"immediately mark your exact rank and position to anyone else in the Imperial"
-" Navy, if you ever see another one again."
-msgstr ""
-"Парадный мундир золотого и багряного цветов с чёрными полосами. Любой "
-"служащий Имперского флота сразу определил бы по нему ваше звание и "
-"должность, если вы ещё когда-нибудь встретите кого-то из своих."
-
-#: items/teleporter_start_items.json
-msgid "Ocēlōpilli dress tunic"
-msgid_plural "Ocēlōpilli dress tunics"
-msgstr[0] "парадный мундир воина-ягуара"
-msgstr[1] "парадных мундира воина-ягуара"
-msgstr[2] "парадных мундиров воина-ягуара"
-
-#. ~ Description for {'str': 'Ocēlōpilli dress tunic'}
-#: items/teleporter_start_items.json
-msgid ""
-"A dress tunic, in gold and crimson, slashed with yellow bars.  This marks "
-"the wearer as one of the Jaguar Warrior special forces."
-msgstr ""
-"Парадный мундир золотого и багряного цветов с жёлтыми полосами. Он "
-"обозначает принадлежность к спецподразделению воинов-ягуаров."
-
-#: items/teleporter_start_items.json
-msgid "Itzcuāuhtli Corps pants"
-msgid_plural "Itzcuāuhtli Corps pants"
-msgstr[0] "брюки корпуса «Обсидиановый орёл»"
-msgstr[1] "пары брюк корпуса «Обсидиановый орёл»"
-msgstr[2] "пар брюк корпуса «Обсидиановый орёл»"
-
-#. ~ Description for {'str_sp': 'Itzcuāuhtli Corps pants'}
-#: items/teleporter_start_items.json
-msgid ""
-"A set of gold and crimson uniform pants.  The days of wearing only a "
-"maxtlatl are gone following the expansion of the empire out from Anáhuac, "
-"and considering the local climate, you're grateful for it."
-msgstr ""
-"Форменные брюки золотого и багряного цветов. После выхода империи за пределы"
-" Анауака времена, когда носили одну набедренную повязку, остались в прошлом,"
-" и, учитывая местный климат, вы этому рады."
-
-#: items/teleporter_start_items.json
-msgid "naval boots"
-msgid_plural "naval boots"
-msgstr[0] "флотские сапоги"
-msgstr[1] "пары флотских сапог"
-msgstr[2] "пар флотских сапог"
-
-#. ~ Description for {'str_sp': 'naval boots'}
-#: items/teleporter_start_items.json
-msgid ""
-"Simple black leather boots.  It's a good thing you weren't transporting a "
-"planetary tlatoani when the accident happened or you might have ended up on "
-"this gods-forsaken hellhole barefoot."
-msgstr ""
-"Простые чёрные кожаные сапоги. Хорошо, что в момент аварии вы не перевозили "
-"планетарного тлатоани, иначе могли бы оказаться в этой забытой богами дыре "
-"босиком."
-
-#: items/teleporter_start_items.json
-msgid "māchīuhpōhualhuaztli"
-msgid_plural "māchīuhpōhualhuaztimeh"
-msgstr[0] "мачиупоуальуастли"
-msgstr[1] "мачиупоуальуастли"
-msgstr[2] "мачиупоуальуастли"
-
-#. ~ Description for {'str': 'māchīuhpōhualhuaztli', 'str_pl':
-#. 'māchīuhpōhualhuaztimeh'}
-#: items/teleporter_start_items.json
-msgid ""
-"Your trustworthy connection to the local mātlatzālantli, the "
-"māchīuhpōhualhuaztli allows you to store and read texts through tonaltēzcatl"
-" projection, look up info, keep track of your biometrics, play games, record"
-" visuals or sound, connect with far-distant friends and family, act as a "
-"calendar and event planner, and even identify you to agents of the "
-"government or, gods forbid, the Tlamachchiuhqueh, should that become "
-"necessary.  There's nothing to connect to on this blighted world, but the "
-"other functions should still work."
-msgstr ""
-"Ваша надёжная связь с местной матлацалантли. Мачиупоуальуастли позволяет "
-"хранить и читать тексты посредством проекции «Солнечное зеркало», искать "
-"информацию, следить за биометрическими показателями, играть, записывать "
-"изображение и звук, общаться с далёкими друзьями и родными, вести календарь "
-"и планировать дела, а при необходимости даже подтверждать вашу личность "
-"представителям власти или, упаси боги, Тламаччиуке. В этом проклятом мире "
-"подключаться не к чему, но остальные функции должны работать."
-
-#: items/teleporter_start_items.json
-msgid "Itzcuāuhtli Corps combat uniform pants"
-msgid_plural "Itzcuāuhtli Corps combat uniform pants"
-msgstr[0] "боевые брюки корпуса «Обсидиановый орёл»"
-msgstr[1] "пары боевых брюк корпуса «Обсидиановый орёл»"
-msgstr[2] "пар боевых брюк корпуса «Обсидиановый орёл»"
-
-#. ~ Description for {'str_sp': 'Itzcuāuhtli Corps combat uniform pants'}
-#: items/teleporter_start_items.json
-msgid ""
-"The standard combat uniform of the Itzcuāuhtli Corps, in shades of dark "
-"green and grey.  These are pants, with several pockets."
-msgstr ""
-"Стандартная боевая форма корпуса «Обсидиановый орёл» в тёмно-зелёных и серых"
-" тонах. Это брюки с несколькими карманами."
-
-#: items/teleporter_start_items.json
-msgid "Itzcuāuhtli Corps combat uniform shirt"
-msgid_plural "Itzcuāuhtli Corps combat uniform shirt"
-msgstr[0] "боевая рубашка корпуса «Обсидиановый орёл»"
-msgstr[1] "боевые рубашки корпуса «Обсидиановый орёл»"
-msgstr[2] "боевых рубашек корпуса «Обсидиановый орёл»"
-
-#. ~ Description for {'str_sp': 'Itzcuāuhtli Corps combat uniform shirt'}
-#: items/teleporter_start_items.json
-msgid ""
-"The standard combat uniform of the Itzcuāuhtli Corps, in shades of dark "
-"green and grey.  This is a shirt."
-msgstr ""
-"Стандартная боевая форма корпуса «Обсидиановый орёл» в тёмно-зелёных и серых"
-" тонах. Это рубашка."
-
-#: items/teleporter_start_items.json
-msgid "Itzcuāuhtli Corps combat uniform jacket"
-msgid_plural "Itzcuāuhtli Corps combat uniform jacket"
-msgstr[0] "боевая куртка корпуса «Обсидиановый орёл»"
-msgstr[1] "боевые куртки корпуса «Обсидиановый орёл»"
-msgstr[2] "боевых курток корпуса «Обсидиановый орёл»"
-
-#. ~ Description for {'str_sp': 'Itzcuāuhtli Corps combat uniform jacket'}
-#: items/teleporter_start_items.json
-msgid ""
-"The standard combat uniform of the Itzcuāuhtli Corps, in shades of dark "
-"green and grey.  This is a jacket.  It has the eagle over a field of stars "
-"symbol of the Itzcuāuhtli Corps on both shoulders."
-msgstr ""
-"Стандартная боевая форма корпуса «Обсидиановый орёл» в тёмно-зелёных и серых"
-" тонах. Это куртка. На обоих плечах изображена эмблема корпуса «Обсидиановый"
-" орёл»: орёл на звёздном поле."
-
-#: items/teleporter_start_items.json
-msgid "Imperial Church holy symbol"
-msgid_plural "Imperial Church holy symbols"
-msgstr[0] "священный символ Имперской церкви"
-msgstr[1] "священных символа Имперской церкви"
-msgstr[2] "священных символов Имперской церкви"
-
-#. ~ Description for {'str': 'Imperial Church holy symbol'}
-#: items/teleporter_start_items.json
-msgid ""
-"A necklace made of fine gold chain, bearing an image of Jesucristo as the "
-"Ultimate Sacrifice as a pendant, his heart clearly visible through his "
-"chest.  Under his left hand is a raindrop, representing the Aeon Tláloc, and"
-" under his right hand is a sun disc, representing the Aeon Huītzilōpōchtli."
-msgstr ""
-"Ожерелье из тонкой золотой цепочки с подвеской, изображающей Иисуса Христа "
-"как Высшую Жертву: сквозь грудь отчётливо видно его сердце. Под левой рукой "
-"— капля дождя, символ эона Тлалока, под правой — солнечный диск, символ эона"
-" Уицилопочтли."
-
 #: items/weapons.json
 msgid "inferno grenade"
 msgid_plural "inferno grenades"
@@ -10659,6 +9755,15 @@ msgstr ""
 " раза в несколько секунд."
 
 #: items/weapons.json
+msgid "semi-auto"
+msgstr "полуавтомат"
+
+#: items/weapons.json
+msgctxt "gun_type_type"
+msgid "rifle"
+msgstr "винтовка"
+
+#: items/weapons.json
 msgid "LV429-P Pulse Rifle"
 msgid_plural "LV429-P Pulse Rifles"
 msgstr[0] "импульсная винтовка LV429-P"
@@ -10711,12 +9816,27 @@ msgstr ""
 "Пока действует эффект, цель почти совершенно безвредна; к сожалению, на "
 "зомби это не действует."
 
+#: items/weapons.json
+msgctxt "gun_type_type"
+msgid "pistol"
+msgstr "пистолеты"
+
 #: items/armor/belt.json
 msgid "shield belt"
 msgid_plural "shield belts"
 msgstr[0] "щитовой пояс"
 msgstr[1] "щитовых пояса"
 msgstr[2] "щитовых поясов"
+
+#. ~ Use action transform.menu_text for {'str': 'shield belt'}.
+#. ~ Use action transform.menu_text for {'str': 'shield belt (active)',
+#. 'str_pl': 'shield belts (active)'}.
+#. ~ Use action transform.menu_text for {'str': 'suppression belt'}.
+#. ~ Use action transform.menu_text for {'str': 'suppression belt (active)',
+#. 'str_pl': 'suppression belts (active)'}.
+#: items/armor/belt.json
+msgid "Flip the switch"
+msgstr "Щёлкнуть переключателем"
 
 #. ~ Use action transform.msg for {'str': 'shield belt'}.
 #: items/armor/belt.json
@@ -10726,6 +9846,12 @@ msgid ""
 msgstr ""
 "Вы щёлкаете переключателем на поясе, и раздаётся гулкий удар. Пространство у"
 " самой поверхности вашего тела становится вязким, словно патока."
+
+#. ~ Use action transform.need_charges_msg for {'str': 'shield belt'}.
+#. ~ Use action transform.need_charges_msg for {'str': 'suppression belt'}.
+#: items/armor/belt.json
+msgid "The switch clicks but nothing happens."
+msgstr "Переключатель щёлкает, но ничего не происходит."
 
 #. ~ Description for {'str': 'shield belt'}
 #: items/armor/belt.json
@@ -13852,50 +12978,6 @@ msgid "a reflection of another dimension"
 msgstr "отражение другого измерения"
 
 #: monsters/species_overrides.json
-msgid "leech plant"
-msgid_plural "leech plants"
-msgstr[0] "растение-пиявочник"
-msgstr[1] "растения-пиявочника"
-msgstr[2] "растений-пиявочников"
-
-#. ~ Description for leech plant
-#: monsters/species_overrides.json
-msgid "a leech plant"
-msgstr "растение-пиявочник"
-
-#: monsters/species_overrides.json
-msgid "worm"
-msgid_plural "worms"
-msgstr[0] "червь"
-msgstr[1] "червя"
-msgstr[2] "червей"
-
-#. ~ Description for worm
-#: monsters/species_overrides.json
-msgid "a worm"
-msgstr "червь"
-
-#: monsters/species_overrides.json
-msgid "rustle."
-msgstr "шорох."
-
-#: monsters/species_overrides.json
-msgid "zombie"
-msgid_plural "zombies"
-msgstr[0] "зомби"
-msgstr[1] "зомби"
-msgstr[2] "зомби"
-
-#. ~ Description for zombie
-#: monsters/species_overrides.json
-msgid "a zombie"
-msgstr "зомби"
-
-#: monsters/species_overrides.json
-msgid "shuffling."
-msgstr "шарканье."
-
-#: monsters/species_overrides.json
 msgid "robot"
 msgid_plural "robots"
 msgstr[0] "робот"
@@ -13926,18 +13008,6 @@ msgstr "летающий робот"
 #: monsters/species_overrides.json
 msgid "WHIRR"
 msgstr "«УИИРР»"
-
-#: monsters/species_overrides.json
-msgid "fungus"
-msgid_plural "funguss"
-msgstr[0] "гриб"
-msgstr[1] "гриба"
-msgstr[2] "грибов"
-
-#. ~ Description for fungus
-#: monsters/species_overrides.json
-msgid "a fungus"
-msgstr "гриб"
 
 #: monsters/species_overrides.json
 msgid "migo"
@@ -14531,41 +13601,6 @@ msgstr ""
 "Ваши способности защищают от электрического урона и немного ослабляют боль."
 
 #: mutations/gen_granted_traits.json
-msgid "Tonallichicahualizmeya"
-msgstr "Тоналличикауалисмея"
-
-#. ~ Description for {'str': 'Tonallichicahualizmeya'}
-#: mutations/gen_granted_traits.json
-msgid ""
-"You have a matrix in your central nervous system that acts as a universal "
-"control and installation bus for compact bionic modules."
-msgstr ""
-"В вашей центральной нервной системе есть матрица, служащая универсальной "
-"шиной управления и установки компактных бионических модулей."
-
-#: mutations/gen_granted_traits.json
-msgid "Fifth Sun People"
-msgstr "Люди Пятого Солнца"
-
-#. ~ Description for {'str': 'Fifth Sun People'}
-#: mutations/gen_granted_traits.json
-msgid ""
-"You were born in the Ēxcān Tlahtōlōyān, maybe on Tlalticpactli, perhaps even"
-" in Anáhuac, or maybe on one of the colony worlds like Demeter or Yathrib or"
-" Tài Suì.  You enlisted in the Imperial Navy for your own reasons.  Perhaps "
-"you are a scion of the Huey Calpulli following in your ancestors' footsteps,"
-" or perhaps you are one of the mācēhualtin seeking the social benefits of a "
-"completed tour of military service.  Regardless, now you are here, in the "
-"ashes of a dying world, and have to find a way to survive."
-msgstr ""
-"Твоя родина — Тройственный союз: возможно, Тлальтикпактли, может, даже "
-"Анауак или одна из колоний вроде Деметры, Ясриба или Тай-Суй. У тебя были "
-"свои причины поступить в Имперский флот. Может, ты из рода Великого "
-"кальпулли и следуешь по стопам предков, а может, из числа простолюдинов и "
-"рассчитываешь на социальные льготы после службы. Как бы то ни было, теперь "
-"ты здесь, среди пепла умирающего мира, и тебе нужно найти способ выжить."
-
-#: mutations/gen_granted_traits.json
 msgid "Forgetful"
 msgstr "Забывчивость"
 
@@ -14729,14 +13764,22 @@ msgstr "Длительное сосредоточение"
 
 #. ~ Description for {'str': 'Extended Channeling'}
 #: mutations/gen_granted_traits.json
+#| msgid ""
+#| "You can take more time and care in channeling your powers.  It will take 5x "
+#| "as long to evoke them, but it will be much easier to activate them and you "
+#| "will be less likely to gain Nether Attunement while doing so."
 msgid ""
 "You can take more time and care in channeling your powers.  It will take 5x "
 "as long to evoke them, but it will be much easier to activate them and you "
-"will be less likely to gain Nether Attunement while doing so."
+"will be less likely to gain Nether Attunement while doing so.  (The spell "
+"list still shows each power's normal casting time; the extra time passes "
+"before the power takes effect.)"
 msgstr ""
-"Вы можете уделять применению способностей больше времени и внимания. Их "
-"вызов займёт в 5 раз больше времени, но активировать их будет гораздо легче,"
-" а вероятность усиления «Сонастройки с Запредельем» снизится."
+"Вы можете направлять свои силы дольше и тщательнее. Применение способностей "
+"займёт в 5 раз больше времени, зато активировать их станет значительно "
+"легче, а вероятность усиления «Сонастройки с Запредельем» снизится. (В "
+"списке способностей по-прежнему указано обычное время применения; "
+"дополнительное время проходит до срабатывания способности.)"
 
 #: mutations/gen_granted_traits.json
 msgid "Torrential Channeling"
@@ -15834,13 +14877,18 @@ msgstr "Зелёная булавка"
 
 #. ~ Description for mission 'Green Pin'
 #: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
 msgid ""
-"Wren felt someone awaken.  Find the new psion where she marked your map and "
-"bring them back to the quarry, before they have to figure it out alone."
+"Wren felt someone awaken out in the open, with nowhere to hide.  Find the "
+"new psion where she marked your map and bring them back to the quarry, "
+"before they have to figure it out alone."
 msgstr ""
-"Рен почувствовала чьё-то пробуждение. Найдите нового псионика в отмеченном "
-"ею месте и приведите в карьер, прежде чем ему придётся во всём разбираться в"
-" одиночку."
+"Рен почувствовала пробуждение нового псионика на открытом месте, где негде "
+"спрятаться. Найдите этого человека в отмеченном ею на карте месте и "
+"приведите в карьер, пока новому псионику не пришлось разбираться со всем в "
+"одиночку."
 
 #: npcs/psi_alliance.json
 msgid "Someone woke up out there."
@@ -15899,6 +14947,192 @@ msgid ""
 msgstr ""
 "Я почувствовала, как жизнь погасла. Словно свеча. ...К следующему успеем "
 "раньше."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken in a house, hiding.  Find the new psion where she "
+"marked your map and bring them back to the quarry, before they have to "
+"figure it out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика в доме, где кто-то прячется. "
+"Найдите этого человека в отмеченном ею на карте месте и приведите в карьер, "
+"пока новому псионику не пришлось разбираться со всем в одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken down by the river.  Find the new psion where she "
+"marked your map and bring them back to the quarry, before they have to "
+"figure it out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика у реки. Найдите этого человека"
+" в отмеченном ею на карте месте и приведите в карьер, пока новому псионику "
+"не пришлось разбираться со всем в одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken in a library, among a great many books.  Find the "
+"new psion where she marked your map and bring them back to the quarry, "
+"before they have to figure it out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика в библиотеке, среди множества "
+"книг. Найдите этого человека в отмеченном ею на карте месте и приведите в "
+"карьер, пока новому псионику не пришлось разбираться со всем в одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken in somebody's house, keeping very still.  Find the "
+"new psion where she marked your map and bring them back to the quarry, "
+"before they have to figure it out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика в чьём-то доме, где кто-то "
+"замер без движения. Найдите этого человека в отмеченном ею на карте месте и "
+"приведите в карьер, пока новому псионику не пришлось разбираться со всем в "
+"одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken deep in the trees.  Find the new psion where she "
+"marked your map and bring them back to the quarry, before they have to "
+"figure it out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика в глубине леса. Найдите этого "
+"человека в отмеченном ею на карте месте и приведите в карьер, пока новому "
+"псионику не пришлось разбираться со всем в одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken in a bank, behind a lot of locked doors.  Find the "
+"new psion where she marked your map and bring them back to the quarry, "
+"before they have to figure it out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика в банке, за множеством "
+"запертых дверей. Найдите этого человека в отмеченном ею на карте месте и "
+"приведите в карьер, пока новому псионику не пришлось разбираться со всем в "
+"одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken in the middle of a field, in plain sight.  Find the"
+" new psion where she marked your map and bring them back to the quarry, "
+"before they have to figure it out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика посреди поля, у всех на виду. "
+"Найдите этого человека в отмеченном ею на карте месте и приведите в карьер, "
+"пока новому псионику не пришлось разбираться со всем в одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken in a cabin, far from anyone.  Find the new psion "
+"where she marked your map and bring them back to the quarry, before they "
+"have to figure it out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика в хижине, вдали от всех. "
+"Найдите этого человека в отмеченном ею на карте месте и приведите в карьер, "
+"пока новому псионику не пришлось разбираться со всем в одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken in a house, in the dark.  Find the new psion where "
+"she marked your map and bring them back to the quarry, before they have to "
+"figure it out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика в доме, в темноте. Найдите "
+"этого человека в отмеченном ею на карте месте и приведите в карьер, пока "
+"новому псионику не пришлось разбираться со всем в одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken in a cave, or near enough to one.  Find the new "
+"psion where she marked your map and bring them back to the quarry, before "
+"they have to figure it out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика в пещере или где-то совсем "
+"рядом с ней. Найдите этого человека в отмеченном ею на карте месте и "
+"приведите в карьер, пока новому псионику не пришлось разбираться со всем в "
+"одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken in a church.  Find the new psion where she marked "
+"your map and bring them back to the quarry, before they have to figure it "
+"out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика в церкви. Найдите этого "
+"человека в отмеченном ею на карте месте и приведите в карьер, пока новому "
+"псионику не пришлось разбираться со всем в одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken in a pharmacy.  Find the new psion where she marked"
+" your map and bring them back to the quarry, before they have to figure it "
+"out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика в аптеке. Найдите этого "
+"человека в отмеченном ею на карте месте и приведите в карьер, пока новому "
+"псионику не пришлось разбираться со всем в одиночку."
+
+#. ~ Description for mission 'Green Pin'
+#: npcs/psi_alliance.json
+#| msgid ""
+#| "Wren felt someone awaken.  Find the new psion where she marked your map and "
+#| "bring them back to the quarry, before they have to figure it out alone."
+msgid ""
+"Wren felt someone awaken in a motel room, with the door barricaded.  Find "
+"the new psion where she marked your map and bring them back to the quarry, "
+"before they have to figure it out alone."
+msgstr ""
+"Рен почувствовала пробуждение нового псионика в номере мотеля с "
+"забаррикадированной дверью. Найдите этого человека в отмеченном ею на карте "
+"месте и приведите в карьер, пока новому псионику не пришлось разбираться со "
+"всем в одиночку."
 
 #: npcs/psi_alliance.json
 msgid "Newly Awakened Biokinetic"
@@ -15998,7 +15232,7 @@ msgid ""
 "didn't touch that.  I swear I didn't touch it.\""
 msgstr ""
 "&Рядом лежит согнутый пополам дорожный знак. Собеседник не сводит с него "
-"глаз. «Это не я. Клянусь, я даже не касаюсь его»."
+"глаз. «Я его не трогаю. Клянусь, я к нему даже не прикасаюсь»."
 
 #: npcs/psi_alliance.json
 msgid ""
@@ -16017,6 +15251,73 @@ msgstr ""
 #: npcs/psi_alliance.json
 msgid "Who are you?  What do you want?"
 msgstr "Кто ты? Чего тебе нужно?"
+
+#: npcs/psi_alliance.json
+msgid ""
+"*Roll up your sleeve and let them watch an old scar on your forearm smooth "
+"itself away.*  Mine heals right too.  You get used to it."
+msgstr ""
+"*Закатать рукав и показать, как старый шрам на предплечье разглаживается и "
+"исчезает.* У меня тоже всё заживает как надо. К этому привыкаешь."
+
+#: npcs/psi_alliance.json
+msgid ""
+"*Close your eyes and let your sight drift loose, until you are looking at "
+"the two of you from across the road.*  I saw you too, before I got here."
+msgstr ""
+"*Закрыть глаза и позволить зрению отделиться от тела, чтобы увидеть себя и "
+"собеседника с другой стороны дороги.* Мне тоже удалось увидеть тебя ещё до "
+"прихода сюда."
+
+#: npcs/psi_alliance.json
+msgid ""
+"*Hold out a bare hand and let the charge build until it crackles between "
+"your fingers.*  Go on.  It won't hurt us."
+msgstr ""
+"*Протянуть голую руку и накопить заряд, пока между пальцами не затрещат "
+"искры.* Давай. Нам это не повредит."
+
+#: npcs/psi_alliance.json
+msgid ""
+"*Let your own light come up, soft and slow, until the two of you are glowing"
+" together.*  There.  Now nobody can tell which of us is which."
+msgstr ""
+"*Позволить собственному свету разгореться, мягко и медленно, пока вы не "
+"засветитесь вместе.* Вот. Теперь никто не отличит тебя от меня."
+
+#: npcs/psi_alliance.json
+msgid ""
+"*Step close enough to feel their heat, and let your own rise to meet it.  "
+"The grass between you does not burn.*  Breathe.  It listens when you "
+"breathe."
+msgstr ""
+"*Подойти достаточно близко, чтобы ощутить чужой жар, и усилить собственный "
+"ему навстречу. Трава между вами не загорается.* Дыши. Когда дышишь, оно "
+"слушается."
+
+#: npcs/psi_alliance.json
+msgid ""
+"*Reach out without moving and gently unbend the road sign until it stands "
+"straight again.*  It's the same as yours.  Just a hand nobody else can see."
+msgstr ""
+"*Потянуться, не двигаясь, и осторожно выпрямить дорожный знак.* У меня то же"
+" самое, что у тебя. Просто рука, которую никто не видит."
+
+#: npcs/psi_alliance.json
+msgid ""
+"*Don't say anything out loud.  Just think it, quiet and clear: I hear it "
+"too.  I can show you how to turn it down.*"
+msgstr ""
+"*Ничего не говорить вслух. Просто подумать, тихо и ясно: я тоже это слышу. Я"
+" могу показать, как сделать потише.*"
+
+#: npcs/psi_alliance.json
+msgid ""
+"*Blink out, and step back into the world right beside them, close enough to "
+"touch.*  It stops being scary when you choose where you land."
+msgstr ""
+"*Исчезнуть и вернуться в мир совсем рядом, на расстоянии вытянутой руки.* "
+"Уже не так страшно, когда выбираешь, где окажешься."
 
 #: npcs/psi_alliance.json
 msgid ""
@@ -16044,15 +15345,112 @@ msgstr "Неважно."
 
 #: npcs/psi_alliance.json
 msgid ""
+"&They stare at your arm, then at their own, and slowly stop holding it like "
+"it belongs to someone else.  \"It's the same.  It's the same thing.  I "
+"thought I was the only one in the world whose body wouldn't stay broken.\"  "
+"They let out a shaky breath.  \"Okay.  Where are we going?\""
+msgstr ""
+"&Собеседник пристально смотрит на вашу руку, затем на свою и постепенно "
+"перестаёт держать её так, будто она принадлежит кому-то другому. «То же "
+"самое. Всё то же самое. А мне казалось, только у меня во всём мире тело не "
+"хочет оставаться сломанным». Раздаётся дрожащий выдох. «Ладно. Куда идём?»"
+
+#: npcs/psi_alliance.json
+msgid "Stay close."
+msgstr "Держись рядом."
+
+#: npcs/psi_alliance.json
+msgid ""
+"&Their eyes unfocus, and for a moment you can feel them out there with you, "
+"looking from the same empty place across the road.  \"You're here.  You're "
+"HERE too.  I thought I was the only one who'd come loose from my own head.\""
+"  Their eyes come back.  \"Don't tell me where we're going.  I want to see "
+"it first.\""
+msgstr ""
+"&Взгляд расфокусируется, и на миг вы чувствуете чужое присутствие рядом с "
+"собой, в той же пустой точке по другую сторону дороги. «Ты здесь. Ты ТОЖЕ "
+"здесь. А мне казалось, только у меня сознание вырвалось из головы». Взгляд "
+"снова становится осмысленным. «Не говори, куда мы идём. Я хочу сначала "
+"посмотреть»."
+
+#: npcs/psi_alliance.json
+msgid ""
+"&They hesitate, then lay their palm against yours.  The sparks jump between "
+"you and go still, two currents finding the same ground.  \"It didn't hurt.\""
+"  They don't let go.  \"Nobody's been able to touch me since it started.  "
+"Nobody.\""
+msgstr ""
+"&После короткого колебания ладонь касается вашей. Между вами проскакивают "
+"искры и затихают: два тока находят общее заземление. «Не больно». Ладонь "
+"остаётся в вашей. «С тех пор как это началось, никто не мог ко мне "
+"прикоснуться. Никто»."
+
+#: npcs/psi_alliance.json
+msgid ""
+"&Their glow flickers, uncertain, then steadies to match yours, and for a "
+"moment you are just two lamps left on in the same room.  \"You too.  You're "
+"lit up too.\"  They laugh, and it comes out half a sob.  \"I thought I was "
+"the only thing out here shining.\""
+msgstr ""
+"&Неуверенное сияние мерцает, затем становится ровным, как ваше, и на миг вы "
+"похожи на две лампы, оставленные включёнными в одной комнате. «Ты тоже. Ты "
+"тоже светишься». Смех наполовину похож на рыдание. «А мне казалось, здесь "
+"больше никто не светится»."
+
+#: npcs/psi_alliance.json
+msgid ""
+"&Their shoulders drop.  The heat rolling off them draws in, slowly, the way "
+"yours does.  \"You're warm.  You're warm like me, and nothing's on fire.\"  "
+"They look down at the unburnt grass.  \"Teach me that.  Wherever you're "
+"going, I'm coming.\""
+msgstr ""
+"&Плечи опускаются. Исходящий от тела жар медленно отступает, как и ваш. «От "
+"тебя тепло. Такое же, как от меня, и ничего не горит». Взгляд опускается на "
+"нетронутую траву. «Научи меня. Куда ты, туда и я»."
+
+#: npcs/psi_alliance.json
+msgid ""
+"&They watch the sign straighten, and then you feel them reach out too, "
+"clumsy and careful, until their unseen grip rests on the sign beside yours."
+"  \"I can feel you holding it.\"  They let go first.  \"I thought it was "
+"just me breaking things.  Okay.  Okay, I'll come.\""
+msgstr ""
+"&Взгляд следит за выпрямляющимся знаком, а затем вы чувствуете, как рядом с "
+"вашей невидимой хваткой появляется ещё одна, неловкая и осторожная. «Я "
+"чувствую, как ты его держишь». Чужая хватка ослабевает первой. «А мне "
+"казалось, это я просто всё ломаю. Хорошо. Хорошо, я пойду»."
+
+#: npcs/psi_alliance.json
+msgid ""
+"&Their head snaps up.  Then, under all the noise, you feel them reach back, "
+"and hold on.  \"You're quiet.  You're the only quiet thing out here.\"  "
+"Their voice is shaking.  \"Stay where I can hear you.  Please.  I'll go "
+"wherever you go.\""
+msgstr ""
+"&Голова резко поднимается. Затем сквозь весь этот шум вы чувствуете ответное"
+" прикосновение, которое уже не отпускает вас. «Ты не шумишь. Здесь только ты"
+" не шумишь». Голос дрожит. «Оставайся там, где я могу тебя слышать. "
+"Пожалуйста. Я пойду за тобой куда угодно»."
+
+#: npcs/psi_alliance.json
+msgid ""
+"&They flinch, then laugh, high and cracked.  \"You did it too.  You did it "
+"on PURPOSE.\"  They grab your sleeve as if you might vanish again, or they "
+"might.  \"Show me how.  Please.  I'll follow you anywhere, as long as it's "
+"on purpose.\""
+msgstr ""
+"&За испуганным вздрагиванием следует высокий надтреснутый смех. «Ты тоже "
+"умеешь исчезать. И делаешь это НАРОЧНО». Рука вцепляется в ваш рукав, словно"
+" кто-то из вас может снова исчезнуть. «Покажи как. Пожалуйста. Я пойду за "
+"тобой куда угодно, лишь бы по своей воле»."
+
+#: npcs/psi_alliance.json
+msgid ""
 "...Okay.  Okay.  If there's somewhere I can stop being scared of my own "
 "hands, I'll go.  Lead the way."
 msgstr ""
 "...Ладно. Ладно. Если есть место, где я перестану бояться собственных рук, я"
 " пойду. Показывай дорогу."
-
-#: npcs/psi_alliance.json
-msgid "Stay close."
-msgstr "Держись рядом."
 
 #: npcs/psi_alliance.json
 msgid ""
@@ -17360,18 +16758,6 @@ msgstr "исследовательский центр"
 #: overmap/overmap_terrain.json
 msgid "crystal outcroppings"
 msgstr "кристаллические наросты"
-
-#: overmap/overmap_terrain.json
-msgid "shack"
-msgstr "лачуга"
-
-#: overmap/overmap_terrain.json
-msgid "shack roof"
-msgstr "крыша лачуги"
-
-#: overmap/overmap_terrain.json
-msgid "forest"
-msgstr "лес"
 
 #: overmap/overmap_terrain.json
 msgid "office"
@@ -19119,14 +18505,20 @@ msgstr ""
 "Текущий уровень способности: <u_spell_level:telepathic_mesmerize_knack>"
 
 #: recipes/practice/psychic_knacks.json
+#| msgid ""
+#| "Contemplate your powers and improve your ability to overpower the minds of animals.\n"
+#| "\n"
+#| "Power Difficulty: 2\n"
+#| "\n"
+#| "Current Power Level: <u_spell_level:telepathic_animal_mind_control_knack>"
 msgid ""
-"Contemplate your powers and improve your ability to overpower the minds of animals.\n"
+"Contemplate your powers and improve your ability to overpower the minds of other creatures.\n"
 "\n"
 "Power Difficulty: 2\n"
 "\n"
 "Current Power Level: <u_spell_level:telepathic_animal_mind_control_knack>"
 msgstr ""
-"Созерцайте свои силы и совершенствуйте умение подавлять разум животных.\n"
+"Созерцайте свои силы и совершенствуйте умение подавлять разум других существ.\n"
 "\n"
 "Сложность способности: 2\n"
 "\n"
@@ -19749,14 +19141,20 @@ msgstr ""
 "Текущий уровень способности: <u_spell_level:telepathic_blast>"
 
 #: recipes/practice/telepathy_practice.json
+#| msgid ""
+#| "Contemplate your powers and improve your ability to overpower the minds of animals.\n"
+#| "\n"
+#| "Power Difficulty: 4\n"
+#| "\n"
+#| "Current Power Level: <u_spell_level:telepathic_animal_mind_control>"
 msgid ""
-"Contemplate your powers and improve your ability to overpower the minds of animals.\n"
+"Contemplate your powers and improve your ability to overpower the minds of other creatures.\n"
 "\n"
 "Power Difficulty: 4\n"
 "\n"
 "Current Power Level: <u_spell_level:telepathic_animal_mind_control>"
 msgstr ""
-"Созерцайте свои силы и совершенствуйте умение подавлять разум животных.\n"
+"Созерцайте свои силы и совершенствуйте умение подавлять разум других существ.\n"
 "\n"
 "Сложность способности: 4\n"
 "\n"
@@ -19825,32 +19223,24 @@ msgstr ""
 "Текущий уровень способности: <u_spell_level:telepathic_blast_radius>"
 
 #: recipes/practice/telepathy_practice.json
+#| msgid ""
+#| "Contemplate your powers and improve your ability to control animals over the long term.\n"
+#| "\n"
+#| "Power Difficulty: 7\n"
+#| "\n"
+#| "Current Power Level: <u_spell_level:telepathic_beast_taming>"
 msgid ""
-"Contemplate your powers and improve your ability to control animals over the long term.\n"
+"Contemplate your powers and improve your ability to bind creatures to you for good.\n"
 "\n"
 "Power Difficulty: 7\n"
 "\n"
 "Current Power Level: <u_spell_level:telepathic_beast_taming>"
 msgstr ""
-"Созерцайте свои силы и совершенствуйте умение надолго подчинять животных.\n"
+"Созерцайте свои силы и совершенствуйте умение навсегда привязывать к себе существ.\n"
 "\n"
 "Сложность способности: 7\n"
 "\n"
 "Текущий уровень способности: <u_spell_level:telepathic_beast_taming>"
-
-#: recipes/practice/telepathy_practice.json
-msgid ""
-"Contemplate your powers and improve your domination of others' minds.\n"
-"\n"
-"Power Difficulty: 8\n"
-"\n"
-"Current Power Level: <u_spell_level:telepathic_mind_control>"
-msgstr ""
-"Созерцайте свои силы и совершенствуйте умение господствовать над чужим разумом.\n"
-"\n"
-"Сложность способности: 8\n"
-"\n"
-"Текущий уровень способности: <u_spell_level:telepathic_mind_control>"
 
 #: recipes/practice/telepathy_practice.json
 msgid ""
@@ -22315,7 +21705,7 @@ msgid ""
 "This power <color_yellow>is maintained by concentration</color> and <color_red>may fail</color> if <color_yellow>concentration is interrupted</color>.\n"
 "\n"
 "Level 5 leads to Aura Sight.\n"
-"Level 4 leads to Locate Item.\n"
+"Level 4 leads to Locate Items.\n"
 "Level 8 leads to Night Eyes.\n"
 "Level 6 leads to Premonition.\n"
 "Level 3 leads to See Mechanisms."
@@ -22324,8 +21714,8 @@ msgstr ""
 "\n"
 "Эта способность <color_yellow>поддерживается концентрацией</color> и <color_red>может перестать действовать</color>, если <color_yellow>концентрация будет нарушена</color>.\n"
 "\n"
-"На 4-м уровне открывается «Поиск предмета».\n"
 "На 5-м уровне открывается «Зрение аур».\n"
+"На 4-м уровне открывается «Поиск предметов».\n"
 "На 8-м уровне открывается «Ночное зрение».\n"
 "На 6-м уровне открывается «Предчувствие».\n"
 "На 3-м уровне открывается «Видение механизмов»."
@@ -23681,9 +23071,16 @@ msgstr "[Ψ]Дальняя рука"
 
 #. ~ Description for [Ψ]Far Hand
 #: spells/psychic_knacks.json
-#| msgid "Pickup items at a distance or push them away from you."
-msgid "Pick up items at a distance or push them away from you."
-msgstr "Поднимайте предметы на расстоянии или отталкивайте их от себя."
+msgid ""
+"Pick up items at a distance or push them away from you.  Pulled items travel"
+" to you through the air, so walls, closed doors, glass, solid floors and "
+"sealed containers like locked safes stop them; open windows, fences, bars "
+"and holes in the floor don't."
+msgstr ""
+"Подбирайте предметы на расстоянии или отталкивайте их от себя. Притягиваемые"
+" предметы летят к вам по воздуху, поэтому стены, закрытые двери, стекло, "
+"сплошные перекрытия и закрытые ёмкости вроде запертых сейфов останавливают "
+"их, а открытые окна, заборы, решётки и отверстия в полу — нет."
 
 #: spells/psychic_knacks.json spells/telekinesis.json
 msgid "[Ψ]Force Shove"
@@ -23759,16 +23156,22 @@ msgstr "[Ψ]Ментальный сонар (К)"
 
 #. ~ Description for [Ψ]Mind Sonar (C)
 #: spells/psychic_knacks.json
+#| msgid ""
+#| "You cast your mind outward like a sonar pulse, sweeping the area for the minds of others.  While maintained, you periodically sense every <color_light_green>sapient mind</color> around you — people and other thinking things — and learn their <color_light_green>direction and distance</color>, even through walls and in total darkness.  You cannot see them, but you know they are there.  The <color_light_green>range grows</color> as you master the power, and greater mastery <color_light_green>quickens the pulse</color> and lets you pick out <color_light_green>familiar minds by name</color>.\n"
+#| "\n"
+#| "The walking dead, robots, and other <color_light_gray>mindless</color> things have no mind to sense.\n"
+#| "\n"
+#| "This power <color_yellow>is maintained by concentration</color> and <color_red>may fail</color> if <color_yellow>concentration is interrupted</color>."
 msgid ""
-"You cast your mind outward like a sonar pulse, sweeping the area for the minds of others.  While maintained, you periodically sense every <color_light_green>sapient mind</color> around you — people and other thinking things — and learn their <color_light_green>direction and distance</color>, even through walls and in total darkness.  You cannot see them, but you know they are there.  The <color_light_green>range grows</color> as you master the power, and greater mastery <color_light_green>quickens the pulse</color> and lets you pick out <color_light_green>familiar minds by name</color>.\n"
+"You cast your mind outward like a sonar pulse, sweeping the area for the minds of others.  While maintained, you periodically sense every <color_light_green>living mind</color> around you — people, animals, the walking dead, anything alive — and learn their <color_light_green>direction and distance</color>, even through walls and in total darkness.  You cannot see them, but you know they are there.  The <color_light_green>range grows</color> as you master the power, and greater mastery <color_light_green>quickens the pulse</color> and lets you pick out <color_light_green>familiar minds by name</color>.\n"
 "\n"
-"The walking dead, robots, and other <color_light_gray>mindless</color> things have no mind to sense.\n"
+"The <color_light_gray>Robots</color> have no mind to sense, and <color_light_gray>psi-null</color> creatures and enemy telepaths stay hidden behind their wards.\n"
 "\n"
 "This power <color_yellow>is maintained by concentration</color> and <color_red>may fail</color> if <color_yellow>concentration is interrupted</color>."
 msgstr ""
-"Пошлите мысленный импульс, словно сигнал сонара, и ощутите чужие разумы вокруг себя. Пока способность поддерживается, вы периодически ощущаете поблизости <color_light_green>разумы всех мыслящих существ</color> — людей и других разумных созданий — и узнаёте <color_light_green>направление и расстояние</color> до них, даже сквозь стены и в полной темноте. Вы их не видите, но знаете, что они здесь. С освоением способности <color_light_green>растёт дальность</color>, а дальнейшее мастерство <color_light_green>учащает импульсы</color> и позволяет узнавать <color_light_green>знакомые разумы по именам</color>.\n"
+"Пошлите мысленный импульс, словно сигнал сонара, и ощутите чужие разумы вокруг себя. Пока способность поддерживается, вы периодически ощущаете поблизости <color_light_green>все живые разумы</color> — людей, животных, ходячих мертвецов, любых живых существ — и узнаёте <color_light_green>направление и расстояние</color> до них, даже сквозь стены и в полной темноте. Вы их не видите, но знаете, что они здесь. С освоением способности <color_light_green>растёт дальность</color>, а дальнейшее мастерство <color_light_green>учащает импульсы</color> и позволяет узнавать <color_light_green>знакомые разумы по именам</color>.\n"
 "\n"
-"У ходячих мертвецов, роботов и прочих <color_light_gray>неразумных</color> существ нет разума, который можно обнаружить.\n"
+"У <color_light_gray>роботов</color> нет разума, который можно обнаружить, а <color_light_gray>пси-невосприимчивые</color> существа и вражеские телепаты скрываются за ментальными барьерами.\n"
 "\n"
 "Эта способность <color_yellow>поддерживается концентрацией</color> и <color_red>может перестать действовать</color>, если <color_yellow>концентрация будет нарушена</color>."
 
@@ -23808,14 +23211,18 @@ msgstr "[Ψ]Синаптическая перегрузка"
 
 #. ~ Description for [Ψ]Synaptic Overload
 #: spells/psychic_knacks.json
+#| msgid ""
+#| "Short-circuit and overwhelm a target's brain, causing extreme damage or death.\n"
+#| "\n"
+#| "<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>."
 msgid ""
 "Short-circuit and overwhelm a target's brain, causing extreme damage or death.\n"
 "\n"
-"<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>."
+"<color_yellow>This power needs a living mind to seize hold of.</color>  Anything alive will do, even the walking dead, slimes, plants and things from the Nether, but <color_light_gray>robots</color> have none, and <color_light_gray>psi-null</color> creatures and enemy telepaths ward their minds against you."
 msgstr ""
 "Вызовите замыкание и перегрузку в мозге цели, нанося тяжёлый урон или убивая её.\n"
 "\n"
-"<color_yellow>Этой способности нужен разум, за который можно зацепиться.</color> У ходячих мертвецов, роботов и других <color_light_gray>неразумных</color> существ его нет, поэтому способность на них <color_light_gray>совершенно не действует</color>."
+"<color_yellow>Этой способности нужен живой разум, за который можно зацепиться.</color> Подойдёт любое живое существо, даже ходячие мертвецы, слизни, растения и твари из Запределья. У <color_light_gray>роботов</color> разума нет, а <color_light_gray>пси-невосприимчивые</color> существа и вражеские телепаты защищают свой разум от вас."
 
 #. ~ Message for SPELL '[Ψ]Synaptic Overload'
 #: spells/psychic_knacks.json spells/telepathy.json
@@ -23829,22 +23236,23 @@ msgstr "[Ψ]Повелитель зверей"
 #. ~ Description for [Ψ]Beastmaster
 #: spells/psychic_knacks.json
 msgid ""
-"Take control of an animal's mind, forcing it to obey you.  This also works on feral humans.\n"
+"Seize a creature's mind and bend it to your will.  For a few minutes it fights at your side and follows where you lead.\n"
 "\n"
-"<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>.\n"
+"<color_yellow>This power needs a living mind to seize hold of.</color>  Anything alive will do, even the walking dead, slimes, plants and things from the Nether, but <color_light_gray>robots</color> have none, and <color_light_gray>psi-null</color> creatures and enemy telepaths ward their minds against you.\n"
 "\n"
 "<color_light_green>Pack Leader:</color> once you know this power, every pet you have deals <color_light_green>25%</color> more melee damage.  Pets fighting within 12 tiles of you also gain a compounding <color_light_green>15%</color> for each packmate beyond the first, counting up to 8 pets (x3.33 at 8).  Pets near you also hold their nerve and will not flee until badly wounded.  Pets that wander off will find their way back to your side.  Pets that stray too far break off their hunt and return.  Guns, psionic powers and a few hard-wired abilities are not boosted."
 msgstr ""
-"Подчините разум животного своей воле. Действует и на одичавших людей.\n"
+"Подчините разум существа своей воле. Несколько минут оно будет сражаться на вашей стороне и следовать за вами.\n"
 "\n"
-"<color_yellow>Этой способности нужен разум, за который можно зацепиться.</color> У ходячих мертвецов, роботов и других <color_light_gray>неразумных</color> существ его нет, поэтому способность на них <color_light_gray>совершенно не действует</color>.\n"
+"<color_yellow>Этой способности нужен живой разум, за который можно зацепиться.</color> Подойдёт любое живое существо, даже ходячие мертвецы, слизни, растения и твари из Запределья. У <color_light_gray>роботов</color> разума нет, а <color_light_gray>пси-невосприимчивые</color> существа и вражеские телепаты защищают свой разум от вас.\n"
 "\n"
-"<color_light_green>Вожак стаи:</color> освоив эту способность, вы увеличиваете урон всех своих питомцев в ближнем бою на <color_light_green>25%</color>. Питомцы, сражающиеся в пределах 12 клеток от вас, дополнительно увеличивают урон на <color_light_green>15%</color> за каждого участника стаи сверх первого. Бонусы перемножаются; учитывается до 8 питомцев (множитель x3.33 при 8). Рядом с вами питомцы сохраняют самообладание и не убегают, пока не получат тяжёлые ранения. Отбившиеся от стаи питомцы находят дорогу обратно к вам. Удалившись слишком далеко, питомцы прекращают преследование и возвращаются. Бонус не распространяется на огнестрельное оружие, псионические способности и некоторые встроенные способности."
+"<color_light_green>Вожак стаи:</color> после освоения этой способности все ваши питомцы наносят на <color_light_green>25%</color> больше урона в ближнем бою. Питомцы, сражающиеся в пределах 12 клеток от вас, также получают множащуюся прибавку <color_light_green>15%</color> за каждого члена стаи сверх первого; учитывается до 8 питомцев (при 8 — x3.33). Рядом с вами питомцы также сохраняют самообладание и не убегают, пока не получат тяжёлые ранения. Отбившиеся питомцы находят дорогу обратно к вам. Если питомец отойдёт слишком далеко, он прекратит преследование и вернётся. Огнестрельное оружие, псионические силы и некоторые врождённые способности не усиливаются."
 
 #. ~ Message for SPELL '[Ψ]Beastmaster'
 #: spells/psychic_knacks.json spells/telepathy.json
-msgid "You reach out to the animal's mind and twist."
-msgstr "Вы дотягиваетесь до разума животного и подчиняете его своей воле."
+#| msgid "You reach out to the animal's mind and twist."
+msgid "You reach out to the creature's mind and twist."
+msgstr "Вы дотягиваетесь до разума существа и подчиняете его своей воле."
 
 #: spells/psychic_knacks.json spells/telepathy.json
 msgid "[Ψ]Obscurity"
@@ -23872,14 +23280,18 @@ msgstr "[Ψ]Псионический крик"
 
 #. ~ Description for [Ψ]Psychic Scream
 #: spells/psychic_knacks.json
+#| msgid ""
+#| "Emit an uncontrolled psychic scream, attacking the mind of anyone nearby.  This power does not distinguish between friend and foe.\n"
+#| "\n"
+#| "<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>."
 msgid ""
 "Emit an uncontrolled psychic scream, attacking the mind of anyone nearby.  This power does not distinguish between friend and foe.\n"
 "\n"
-"<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>."
+"<color_yellow>This power needs a living mind to seize hold of.</color>  Anything alive will do, even the walking dead, slimes, plants and things from the Nether, but <color_light_gray>robots</color> have none, and <color_light_gray>psi-null</color> creatures and enemy telepaths ward their minds against you."
 msgstr ""
 "Издайте неконтролируемый псионический крик, атакующий разумы всех поблизости. Эта способность не различает друзей и врагов.\n"
 "\n"
-"<color_yellow>Этой способности нужен разум, за который можно зацепиться.</color> У ходячих мертвецов, роботов и других <color_light_gray>неразумных</color> существ его нет, поэтому способность на них <color_light_gray>совершенно не действует</color>."
+"<color_yellow>Этой способности нужен живой разум, за который можно зацепиться.</color> Подойдёт любое живое существо, даже ходячие мертвецы, слизни, растения и твари из Запределья. У <color_light_gray>роботов</color> разума нет, а <color_light_gray>пси-невосприимчивые</color> существа и вражеские телепаты защищают свой разум от вас."
 
 #. ~ Message for SPELL '[Ψ]Psychic Scream'
 #: spells/psychic_knacks.json spells/telepathy.json
@@ -24215,7 +23627,7 @@ msgstr "Вы сосредоточиваете всю свою силу в одн
 #| "Level 5 leads to Momentum Alteration with Force Shove 5.\n"
 #| "Level 10 leads to Wrecking Ball with Force Shove 10 + Knockdown 12 OR Far Hand 10 + Knockdown 12 OR Force Shove 10 + Mindhammer 7 OR Far Hand 10 + Mindhammer 7."
 msgid ""
-"Pick up items at a distance or push them away from you.\n"
+"Pick up items at a distance or push them away from you.  Pulled items travel to you through the air, so walls, closed doors, glass, solid floors and sealed containers like locked safes stop them; open windows, fences, bars and holes in the floor don't.\n"
 "\n"
 "Level 6 leads to Enhance Strength with Far Hand 6 + Momentum Alteration 5 OR Force Shove 6 + Momentum Alteration 5.\n"
 "Level 5 leads to Kinetic Trap with Force Shove 5.\n"
@@ -24225,7 +23637,7 @@ msgid ""
 "Level 5 leads to Momentum Alteration with Force Shove 5.\n"
 "Level 10 leads to Wrecking Ball with Force Shove 10 + Knockdown 12 OR Far Hand 10 + Knockdown 12 OR Force Shove 10 + Mindhammer 7 OR Far Hand 10 + Mindhammer 7."
 msgstr ""
-"Поднимайте предметы на расстоянии или отталкивайте их от себя.\n"
+"Подбирайте предметы на расстоянии или отталкивайте их от себя. Притягиваемые предметы летят к вам по воздуху, поэтому стены, закрытые двери, стекло, сплошные перекрытия и закрытые ёмкости вроде запертых сейфов останавливают их, а открытые окна, заборы, решётки и отверстия в полу — нет.\n"
 "\n"
 "На 6-м уровне открывается «Увеличение силы»; условия: «Дальняя рука» 6-го уровня + «Изменение импульса» 5-го уровня ИЛИ «Силовой толчок» 6-го уровня + «Изменение импульса» 5-го уровня.\n"
 "На 5-м уровне открывается «Кинетическая ловушка»; условия: «Силовой толчок» 5-го уровня.\n"
@@ -24620,10 +24032,21 @@ msgstr ""
 
 #. ~ Description for [Ψ]Mind Sonar (C)
 #: spells/telepathy.json
+#| msgid ""
+#| "You cast your mind outward like a sonar pulse, sweeping the area for the minds of others.  While maintained, you periodically sense every <color_light_green>sapient mind</color> around you — people and other thinking things — and learn their <color_light_green>direction and distance</color>, even through walls and in total darkness.  You cannot see them, but you know they are there.  The <color_light_green>range grows</color> as you master the power, and greater mastery <color_light_green>quickens the pulse</color> and lets you pick out <color_light_green>familiar minds by name</color>.\n"
+#| "\n"
+#| "The walking dead, robots, and other <color_light_gray>mindless</color> things have no mind to sense.\n"
+#| "\n"
+#| "This power <color_yellow>is maintained by concentration</color> and <color_red>may fail</color> if <color_yellow>concentration is interrupted</color>.\n"
+#| "\n"
+#| "Level 6 leads to Mesmerize.\n"
+#| "Level 5 leads to Mood Stabilization with Concentration Trance 6.\n"
+#| "Level 10 leads to Network Effect with Mind Sonar 10 + Mood Stabilization 12 + Psychic Scream 6 OR Mind Sonar 10 + Obscurity 6 + Psychic Scream 6.\n"
+#| "Level 7 leads to Synaptic Overload with Mood Stabilization 4."
 msgid ""
-"You cast your mind outward like a sonar pulse, sweeping the area for the minds of others.  While maintained, you periodically sense every <color_light_green>sapient mind</color> around you — people and other thinking things — and learn their <color_light_green>direction and distance</color>, even through walls and in total darkness.  You cannot see them, but you know they are there.  The <color_light_green>range grows</color> as you master the power, and greater mastery <color_light_green>quickens the pulse</color> and lets you pick out <color_light_green>familiar minds by name</color>.\n"
+"You cast your mind outward like a sonar pulse, sweeping the area for the minds of others.  While maintained, you periodically sense every <color_light_green>living mind</color> around you — people, animals, the walking dead, anything alive — and learn their <color_light_green>direction and distance</color>, even through walls and in total darkness.  You cannot see them, but you know they are there.  The <color_light_green>range grows</color> as you master the power, and greater mastery <color_light_green>quickens the pulse</color> and lets you pick out <color_light_green>familiar minds by name</color>.\n"
 "\n"
-"The walking dead, robots, and other <color_light_gray>mindless</color> things have no mind to sense.\n"
+"The <color_light_gray>Robots</color> have no mind to sense, and <color_light_gray>psi-null</color> creatures and enemy telepaths stay hidden behind their wards.\n"
 "\n"
 "This power <color_yellow>is maintained by concentration</color> and <color_red>may fail</color> if <color_yellow>concentration is interrupted</color>.\n"
 "\n"
@@ -24632,9 +24055,9 @@ msgid ""
 "Level 10 leads to Network Effect with Mind Sonar 10 + Mood Stabilization 12 + Psychic Scream 6 OR Mind Sonar 10 + Obscurity 6 + Psychic Scream 6.\n"
 "Level 7 leads to Synaptic Overload with Mood Stabilization 4."
 msgstr ""
-"Пошлите мысленный импульс, словно сигнал сонара, и ощутите чужие разумы вокруг себя. Пока способность поддерживается, вы периодически ощущаете поблизости <color_light_green>разумы всех мыслящих существ</color> — людей и других разумных созданий — и узнаёте <color_light_green>направление и расстояние</color> до них, даже сквозь стены и в полной темноте. Вы их не видите, но знаете, что они здесь. С освоением способности <color_light_green>растёт дальность</color>, а дальнейшее мастерство <color_light_green>учащает импульсы</color> и позволяет узнавать <color_light_green>знакомые разумы по именам</color>.\n"
+"Пошлите мысленный импульс, словно сигнал сонара, и ощутите чужие разумы вокруг себя. Пока способность поддерживается, вы периодически ощущаете поблизости <color_light_green>все живые разумы</color> — людей, животных, ходячих мертвецов, любых живых существ — и узнаёте <color_light_green>направление и расстояние</color> до них, даже сквозь стены и в полной темноте. Вы их не видите, но знаете, что они здесь. С освоением способности <color_light_green>растёт дальность</color>, а дальнейшее мастерство <color_light_green>учащает импульсы</color> и позволяет узнавать <color_light_green>знакомые разумы по именам</color>.\n"
 "\n"
-"У ходячих мертвецов, роботов и прочих <color_light_gray>неразумных</color> существ нет разума, который можно обнаружить.\n"
+"У <color_light_gray>роботов</color> нет разума, который можно обнаружить, а <color_light_gray>пси-невосприимчивые</color> существа и вражеские телепаты скрываются за ментальными барьерами.\n"
 "\n"
 "Эта способность <color_yellow>поддерживается концентрацией</color> и <color_red>может перестать действовать</color>, если <color_yellow>концентрация будет нарушена</color>.\n"
 "\n"
@@ -24645,13 +24068,24 @@ msgstr ""
 
 #. ~ Description for [Ψ]Mood Stabilization (C)
 #: spells/telepathy.json
+#| msgid ""
+#| "With the ability to edit others' thoughts comes the ability to edit your own, removing negative moods to a degree.  You have also learned to do this more subtly on others, calming their anger or assuaging their fears.\n"
+#| "\n"
+#| "When used on yourself, this power <color_yellow>is maintained by concentration</color> and <color_red>may fail</color> if <color_yellow>concentration is interrupted</color>.\n"
+#| "\n"
+#| "Level 8 leads to Beastmaster.\n"
+#| "Level 12 leads to Mind Control with Mood Stabilization 12 + Primal Terror 5 OR Beastmaster 8 + Mood Stabilization 12 OR Mood Stabilization 12 + Sensory Deprivation 7 OR Obscurity 6 + Primal Terror 5 OR Beastmaster 8 + Obscurity 6 OR Obscurity 6 + Sensory Deprivation 7.\n"
+#| "Level 12 leads to Network Effect with Mind Sonar 10 + Mood Stabilization 12 + Psychic Scream 6 OR Mind Sonar 10 + Obscurity 6 + Psychic Scream 6.\n"
+#| "Level 6 leads to Obscurity with Mood Stabilization 6 + Sensory Deprivation 8 OR Sensory Deprivation 8 + Synaptic Overload 11 OR Sensory Deprivation 8 + Telepathic Shield 8.\n"
+#| "Level 8 leads to Primal Terror with Synaptic Overload 8.\n"
+#| "Level 4 leads to Sensory Deprivation.\n"
+#| "Level 4 leads to Synaptic Overload with Mind Sonar 7."
 msgid ""
 "With the ability to edit others' thoughts comes the ability to edit your own, removing negative moods to a degree.  You have also learned to do this more subtly on others, calming their anger or assuaging their fears.\n"
 "\n"
 "When used on yourself, this power <color_yellow>is maintained by concentration</color> and <color_red>may fail</color> if <color_yellow>concentration is interrupted</color>.\n"
 "\n"
 "Level 8 leads to Beastmaster.\n"
-"Level 12 leads to Mind Control with Mood Stabilization 12 + Primal Terror 5 OR Beastmaster 8 + Mood Stabilization 12 OR Mood Stabilization 12 + Sensory Deprivation 7 OR Obscurity 6 + Primal Terror 5 OR Beastmaster 8 + Obscurity 6 OR Obscurity 6 + Sensory Deprivation 7.\n"
 "Level 12 leads to Network Effect with Mind Sonar 10 + Mood Stabilization 12 + Psychic Scream 6 OR Mind Sonar 10 + Obscurity 6 + Psychic Scream 6.\n"
 "Level 6 leads to Obscurity with Mood Stabilization 6 + Sensory Deprivation 8 OR Sensory Deprivation 8 + Synaptic Overload 11 OR Sensory Deprivation 8 + Telepathic Shield 8.\n"
 "Level 8 leads to Primal Terror with Synaptic Overload 8.\n"
@@ -24663,7 +24097,6 @@ msgstr ""
 "При применении к себе эта способность <color_yellow>поддерживается концентрацией</color> и <color_red>может перестать действовать</color>, если <color_yellow>концентрация будет нарушена</color>.\n"
 "\n"
 "На 8-м уровне открывается «Повелитель зверей».\n"
-"На 12-м уровне открывается «Контроль разума»; условия: «Стабилизация настроения» 12-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Стабилизация настроения» 12-го уровня ИЛИ «Стабилизация настроения» 12-го уровня + «Сенсорная депривация» 7-го уровня ИЛИ «Незаметность» 6-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Незаметность» 6-го уровня ИЛИ «Незаметность» 6-го уровня + «Сенсорная депривация» 7-го уровня.\n"
 "На 12-м уровне открывается «Сетевой эффект»; условия: «Ментальный сонар» 10-го уровня + «Стабилизация настроения» 12-го уровня + «Псионический крик» 6-го уровня ИЛИ «Ментальный сонар» 10-го уровня + «Незаметность» 6-го уровня + «Псионический крик» 6-го уровня.\n"
 "На 6-м уровне открывается «Незаметность»; условия: «Стабилизация настроения» 6-го уровня + «Сенсорная депривация» 8-го уровня ИЛИ «Сенсорная депривация» 8-го уровня + «Синаптическая перегрузка» 11-го уровня ИЛИ «Сенсорная депривация» 8-го уровня + «Телепатический щит» 8-го уровня.\n"
 "На 8-м уровне открывается «Первобытный ужас»; условия: «Синаптическая перегрузка» 8-го уровня.\n"
@@ -24672,10 +24105,18 @@ msgstr ""
 
 #. ~ Description for [Ψ]Synaptic Overload
 #: spells/telepathy.json
+#| msgid ""
+#| "Short-circuit and overwhelm a target's brain, causing extreme damage or death.\n"
+#| "\n"
+#| "<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>.\n"
+#| "\n"
+#| "Level 11 leads to Obscurity with Mood Stabilization 6 + Sensory Deprivation 8 OR Sensory Deprivation 8 + Synaptic Overload 11 OR Sensory Deprivation 8 + Telepathic Shield 8.\n"
+#| "Level 8 leads to Primal Terror with Mood Stabilization 8.\n"
+#| "Level 11 leads to Psychic Scream with Synaptic Overload 11 + Telepathic Shield 5 OR Primal Terror 7 + Telepathic Shield 5."
 msgid ""
 "Short-circuit and overwhelm a target's brain, causing extreme damage or death.\n"
 "\n"
-"<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>.\n"
+"<color_yellow>This power needs a living mind to seize hold of.</color>  Anything alive will do, even the walking dead, slimes, plants and things from the Nether, but <color_light_gray>robots</color> have none, and <color_light_gray>psi-null</color> creatures and enemy telepaths ward their minds against you.\n"
 "\n"
 "Level 11 leads to Obscurity with Mood Stabilization 6 + Sensory Deprivation 8 OR Sensory Deprivation 8 + Synaptic Overload 11 OR Sensory Deprivation 8 + Telepathic Shield 8.\n"
 "Level 8 leads to Primal Terror with Mood Stabilization 8.\n"
@@ -24683,7 +24124,7 @@ msgid ""
 msgstr ""
 "Вызовите замыкание и перегрузку в мозге цели, нанося тяжёлый урон или убивая её.\n"
 "\n"
-"<color_yellow>Этой способности нужен разум, за который можно зацепиться.</color> У ходячих мертвецов, роботов и других <color_light_gray>неразумных</color> существ его нет, поэтому способность на них <color_light_gray>совершенно не действует</color>.\n"
+"<color_yellow>Этой способности нужен живой разум, за который можно зацепиться.</color> Подойдёт любое живое существо, даже ходячие мертвецы, слизни, растения и твари из Запределья. У <color_light_gray>роботов</color> разума нет, а <color_light_gray>пси-невосприимчивые</color> существа и вражеские телепаты защищают свой разум от вас.\n"
 "\n"
 "На 11-м уровне открывается «Незаметность»; условия: «Стабилизация настроения» 6-го уровня + «Сенсорная депривация» 8-го уровня ИЛИ «Сенсорная депривация» 8-го уровня + «Синаптическая перегрузка» 11-го уровня ИЛИ «Сенсорная депривация» 8-го уровня + «Телепатический щит» 8-го уровня.\n"
 "На 8-м уровне открывается «Первобытный ужас»; условия: «Стабилизация настроения» 8-го уровня.\n"
@@ -24691,31 +24132,22 @@ msgstr ""
 
 #. ~ Description for [Ψ]Beastmaster
 #: spells/telepathy.json
-#| msgid ""
-#| "Take control of an animal's mind, forcing it to obey you.  This power will not work on insects, spiders, or similar beings.  This also works on feral humans.\n"
-#| "\n"
-#| "<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>.\n"
-#| "\n"
-#| "Level 10 leads to Beast Tamer.\n"
-#| "Level 8 leads to Mind Control with Mood Stabilization 12 + Primal Terror 5 OR Beastmaster 8 + Mood Stabilization 12 OR Mood Stabilization 12 + Sensory Deprivation 7 OR Obscurity 6 + Primal Terror 5 OR Beastmaster 8 + Obscurity 6 OR Obscurity 6 + Sensory Deprivation 7."
 msgid ""
-"Take control of an animal's mind, forcing it to obey you.  This also works on feral humans.\n"
+"Seize a creature's mind and bend it to your will.  For a few minutes it fights at your side and follows where you lead.\n"
 "\n"
-"<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>.\n"
+"<color_yellow>This power needs a living mind to seize hold of.</color>  Anything alive will do, even the walking dead, slimes, plants and things from the Nether, but <color_light_gray>robots</color> have none, and <color_light_gray>psi-null</color> creatures and enemy telepaths ward their minds against you.\n"
 "\n"
 "<color_light_green>Pack Leader:</color> once you know this power, every pet you have deals <color_light_green>25%</color> more melee damage.  Pets fighting within 12 tiles of you also gain a compounding <color_light_green>15%</color> for each packmate beyond the first, counting up to 8 pets (x3.33 at 8).  Pets near you also hold their nerve and will not flee until badly wounded.  Pets that wander off will find their way back to your side.  Pets that stray too far break off their hunt and return.  Guns, psionic powers and a few hard-wired abilities are not boosted.\n"
 "\n"
-"Level 10 leads to Beast Tamer.\n"
-"Level 8 leads to Mind Control with Mood Stabilization 12 + Primal Terror 5 OR Beastmaster 8 + Mood Stabilization 12 OR Mood Stabilization 12 + Sensory Deprivation 7 OR Obscurity 6 + Primal Terror 5 OR Beastmaster 8 + Obscurity 6 OR Obscurity 6 + Sensory Deprivation 7."
+"Level 10 leads to Beast Tamer."
 msgstr ""
-"Подчините разум животного своей воле. Действует и на одичавших людей.\n"
+"Подчините разум существа своей воле. Несколько минут оно будет сражаться на вашей стороне и следовать за вами.\n"
 "\n"
-"<color_yellow>Этой способности нужен разум, за который можно зацепиться.</color> У ходячих мертвецов, роботов и других <color_light_gray>неразумных</color> существ его нет, поэтому способность на них <color_light_gray>совершенно не действует</color>.\n"
+"<color_yellow>Этой способности нужен живой разум, за который можно зацепиться.</color> Подойдёт любое живое существо, даже ходячие мертвецы, слизни, растения и твари из Запределья. У <color_light_gray>роботов</color> разума нет, а <color_light_gray>пси-невосприимчивые</color> существа и вражеские телепаты защищают свой разум от вас.\n"
 "\n"
-"<color_light_green>Вожак стаи:</color> освоив эту способность, вы увеличиваете урон всех своих питомцев в ближнем бою на <color_light_green>25%</color>. Питомцы, сражающиеся в пределах 12 клеток от вас, дополнительно увеличивают урон на <color_light_green>15%</color> за каждого участника стаи сверх первого. Бонусы перемножаются; учитывается до 8 питомцев (множитель x3.33 при 8). Рядом с вами питомцы сохраняют самообладание и не убегают, пока не получат тяжёлые ранения. Отбившиеся от стаи питомцы находят дорогу обратно к вам. Удалившись слишком далеко, питомцы прекращают преследование и возвращаются. Бонус не распространяется на огнестрельное оружие, псионические способности и некоторые встроенные способности.\n"
+"<color_light_green>Вожак стаи:</color> после освоения этой способности все ваши питомцы наносят на <color_light_green>25%</color> больше урона в ближнем бою. Питомцы, сражающиеся в пределах 12 клеток от вас, также получают множащуюся прибавку <color_light_green>15%</color> за каждого члена стаи сверх первого; учитывается до 8 питомцев (при 8 — x3.33). Рядом с вами питомцы также сохраняют самообладание и не убегают, пока не получат тяжёлые ранения. Отбившиеся питомцы находят дорогу обратно к вам. Если питомец отойдёт слишком далеко, он прекратит преследование и вернётся. Огнестрельное оружие, псионические силы и некоторые врождённые способности не усиливаются.\n"
 "\n"
-"На 10-м уровне открывается «Укротитель зверей».\n"
-"На 8-м уровне открывается «Контроль разума»; условия: «Стабилизация настроения» 12-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Стабилизация настроения» 12-го уровня ИЛИ «Стабилизация настроения» 12-го уровня + «Сенсорная депривация» 7-го уровня ИЛИ «Незаметность» 6-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Незаметность» 6-го уровня ИЛИ «Незаметность» 6-го уровня + «Сенсорная депривация» 7-го уровня."
+"На 10-м уровне открывается «Укротитель зверей»."
 
 #: spells/telepathy.json
 msgid "[Ψ]Sensory Deprivation"
@@ -24723,15 +24155,18 @@ msgstr "[Ψ]Сенсорная депривация"
 
 #. ~ Description for [Ψ]Sensory Deprivation
 #: spells/telepathy.json
+#| msgid ""
+#| "Disconnect a target's brain from its senses, leaving it blinded and confused.\n"
+#| "\n"
+#| "Level 7 leads to Mind Control with Mood Stabilization 12 + Primal Terror 5 OR Beastmaster 8 + Mood Stabilization 12 OR Mood Stabilization 12 + Sensory Deprivation 7 OR Obscurity 6 + Primal Terror 5 OR Beastmaster 8 + Obscurity 6 OR Obscurity 6 + Sensory Deprivation 7.\n"
+#| "Level 8 leads to Obscurity with Mood Stabilization 6 + Sensory Deprivation 8 OR Sensory Deprivation 8 + Synaptic Overload 11 OR Sensory Deprivation 8 + Telepathic Shield 8."
 msgid ""
 "Disconnect a target's brain from its senses, leaving it blinded and confused.\n"
 "\n"
-"Level 7 leads to Mind Control with Mood Stabilization 12 + Primal Terror 5 OR Beastmaster 8 + Mood Stabilization 12 OR Mood Stabilization 12 + Sensory Deprivation 7 OR Obscurity 6 + Primal Terror 5 OR Beastmaster 8 + Obscurity 6 OR Obscurity 6 + Sensory Deprivation 7.\n"
 "Level 8 leads to Obscurity with Mood Stabilization 6 + Sensory Deprivation 8 OR Sensory Deprivation 8 + Synaptic Overload 11 OR Sensory Deprivation 8 + Telepathic Shield 8."
 msgstr ""
-"Отключите мозг цели от органов чувств, ослепляя её и вызывая замешательство.\n"
+"Отключите мозг цели от органов чувств, ослепив её и вызвав замешательство.\n"
 "\n"
-"На 7-м уровне открывается «Контроль разума»; условия: «Стабилизация настроения» 12-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Стабилизация настроения» 12-го уровня ИЛИ «Стабилизация настроения» 12-го уровня + «Сенсорная депривация» 7-го уровня ИЛИ «Незаметность» 6-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Незаметность» 6-го уровня ИЛИ «Незаметность» 6-го уровня + «Сенсорная депривация» 7-го уровня.\n"
 "На 8-м уровне открывается «Незаметность»; условия: «Стабилизация настроения» 6-го уровня + «Сенсорная депривация» 8-го уровня ИЛИ «Сенсорная депривация» 8-го уровня + «Синаптическая перегрузка» 11-го уровня ИЛИ «Сенсорная депривация» 8-го уровня + «Телепатический щит» 8-го уровня."
 
 #. ~ Message for SPELL '[Ψ]Sensory Deprivation'
@@ -24745,15 +24180,18 @@ msgstr "[Ψ]Первобытный ужас"
 
 #. ~ Description for [Ψ]Primal Terror
 #: spells/telepathy.json
+#| msgid ""
+#| "Use a target's own inner fears against them, paralyzing them with overwhelming terror.  The effect will not last long, but is completely immobilizing while it does, and it leaves a lingering horror behind in the target.\n"
+#| "\n"
+#| "Level 5 leads to Mind Control with Mood Stabilization 12 + Primal Terror 5 OR Beastmaster 8 + Mood Stabilization 12 OR Mood Stabilization 12 + Sensory Deprivation 7 OR Obscurity 6 + Primal Terror 5 OR Beastmaster 8 + Obscurity 6 OR Obscurity 6 + Sensory Deprivation 7.\n"
+#| "Level 7 leads to Psychic Scream with Synaptic Overload 11 + Telepathic Shield 5 OR Primal Terror 7 + Telepathic Shield 5."
 msgid ""
 "Use a target's own inner fears against them, paralyzing them with overwhelming terror.  The effect will not last long, but is completely immobilizing while it does, and it leaves a lingering horror behind in the target.\n"
 "\n"
-"Level 5 leads to Mind Control with Mood Stabilization 12 + Primal Terror 5 OR Beastmaster 8 + Mood Stabilization 12 OR Mood Stabilization 12 + Sensory Deprivation 7 OR Obscurity 6 + Primal Terror 5 OR Beastmaster 8 + Obscurity 6 OR Obscurity 6 + Sensory Deprivation 7.\n"
 "Level 7 leads to Psychic Scream with Synaptic Overload 11 + Telepathic Shield 5 OR Primal Terror 7 + Telepathic Shield 5."
 msgstr ""
-"Обратите внутренние страхи цели против неё самой, парализуя всепоглощающим ужасом. Эффект недолог, но на всё время действия полностью обездвиживает цель и оставляет после себя тягостный страх.\n"
+"Обратите сокровенные страхи цели против неё самой, парализовав её всепоглощающим ужасом. Эффект длится недолго, но полностью обездвиживает цель, пока действует, и оставляет после себя долгий страх.\n"
 "\n"
-"На 5-м уровне открывается «Контроль разума»; условия: «Стабилизация настроения» 12-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Стабилизация настроения» 12-го уровня ИЛИ «Стабилизация настроения» 12-го уровня + «Сенсорная депривация» 7-го уровня ИЛИ «Незаметность» 6-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Незаметность» 6-го уровня ИЛИ «Незаметность» 6-го уровня + «Сенсорная депривация» 7-го уровня.\n"
 "На 7-м уровне открывается «Псионический крик»; условия: «Синаптическая перегрузка» 11-го уровня + «Телепатический щит» 5-го уровня ИЛИ «Первобытный ужас» 7-го уровня + «Телепатический щит» 5-го уровня."
 
 #. ~ Message for SPELL '[Ψ]Primal Terror'
@@ -24763,33 +24201,41 @@ msgstr "Вы выпускаете страхи своей цели на волю
 
 #. ~ Description for [Ψ]Obscurity
 #: spells/telepathy.json
+#| msgid ""
+#| "Use a light touch on others' minds to hide your presence.  You will be invisible to the target(s) while the power is in effect.\n"
+#| "\n"
+#| "This power is <color_red>canceled by engaging in combat</color> with your target."
 msgid ""
 "Use a light touch on others' minds to hide your presence.  You will be invisible to the target(s) while the power is in effect.\n"
 "\n"
 "This power is <color_red>canceled by engaging in combat</color> with your target.\n"
 "\n"
-"Level 6 leads to Mind Control with Mood Stabilization 12 + Primal Terror 5 OR Beastmaster 8 + Mood Stabilization 12 OR Mood Stabilization 12 + Sensory Deprivation 7 OR Obscurity 6 + Primal Terror 5 OR Beastmaster 8 + Obscurity 6 OR Obscurity 6 + Sensory Deprivation 7.\n"
 "Level 6 leads to Network Effect with Mind Sonar 10 + Mood Stabilization 12 + Psychic Scream 6 OR Mind Sonar 10 + Obscurity 6 + Psychic Scream 6."
 msgstr ""
 "Лёгким воздействием на чужие разумы скройте своё присутствие. Пока способность действует, вы будете невидимы для затронутых целей.\n"
 "\n"
 "Эта способность <color_red>прекращает действовать при вступлении в бой</color> с вашей целью.\n"
 "\n"
-"На 6-м уровне открывается «Контроль разума»; условия: «Стабилизация настроения» 12-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Стабилизация настроения» 12-го уровня ИЛИ «Стабилизация настроения» 12-го уровня + «Сенсорная депривация» 7-го уровня ИЛИ «Незаметность» 6-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Незаметность» 6-го уровня ИЛИ «Незаметность» 6-го уровня + «Сенсорная депривация» 7-го уровня.\n"
 "На 6-м уровне открывается «Сетевой эффект»; условия: «Ментальный сонар» 10-го уровня + «Стабилизация настроения» 12-го уровня + «Псионический крик» 6-го уровня ИЛИ «Ментальный сонар» 10-го уровня + «Незаметность» 6-го уровня + «Псионический крик» 6-го уровня."
 
 #. ~ Description for [Ψ]Psychic Scream
 #: spells/telepathy.json
+#| msgid ""
+#| "Emit an uncontrolled psychic scream, attacking the mind of anyone nearby.  This power does not distinguish between friend and foe.\n"
+#| "\n"
+#| "<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>.\n"
+#| "\n"
+#| "Level 6 leads to Network Effect with Mind Sonar 10 + Mood Stabilization 12 + Psychic Scream 6 OR Mind Sonar 10 + Obscurity 6 + Psychic Scream 6."
 msgid ""
 "Emit an uncontrolled psychic scream, attacking the mind of anyone nearby.  This power does not distinguish between friend and foe.\n"
 "\n"
-"<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>.\n"
+"<color_yellow>This power needs a living mind to seize hold of.</color>  Anything alive will do, even the walking dead, slimes, plants and things from the Nether, but <color_light_gray>robots</color> have none, and <color_light_gray>psi-null</color> creatures and enemy telepaths ward their minds against you.\n"
 "\n"
 "Level 6 leads to Network Effect with Mind Sonar 10 + Mood Stabilization 12 + Psychic Scream 6 OR Mind Sonar 10 + Obscurity 6 + Psychic Scream 6."
 msgstr ""
 "Издайте неконтролируемый псионический крик, атакующий разумы всех поблизости. Эта способность не различает друзей и врагов.\n"
 "\n"
-"<color_yellow>Этой способности нужен разум, за который можно зацепиться.</color>  У ходячих мертвецов, роботов и других <color_light_gray>неразумных</color> существ его нет, поэтому способность на них <color_light_gray>совершенно не действует</color>.\n"
+"<color_yellow>Этой способности нужен живой разум, за который можно зацепиться.</color> Подойдёт любое живое существо, даже ходячие мертвецы, слизни, растения и твари из Запределья. У <color_light_gray>роботов</color> разума нет, а <color_light_gray>пси-невосприимчивые</color> существа и вражеские телепаты защищают свой разум от вас.\n"
 "\n"
 "На 6-м уровне открывается «Сетевой эффект»; условия: «Ментальный сонар» 10-го уровня + «Стабилизация настроения» 12-го уровня + «Псионический крик» 6-го уровня ИЛИ «Ментальный сонар» 10-го уровня + «Незаметность» 6-го уровня + «Псионический крик» 6-го уровня."
 
@@ -24799,33 +24245,23 @@ msgstr "[Ψ]Укротитель зверей"
 
 #. ~ Description for [Ψ]Beast Tamer
 #: spells/telepathy.json
+#| msgid ""
+#| "Perform mental surgery on an animal, making it friendly to you for a much longer duration.  The animal must already be friendly, either naturally or through powers such as Beastmastery, in order to be tamed.  This also works on feral humans.\n"
+#| "\n"
+#| "<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>."
 msgid ""
-"Perform mental surgery on an animal, making it friendly to you for a much longer duration.  The animal must already be friendly, either naturally or through powers such as Beastmastery, in order to be tamed.  This also works on feral humans.\n"
+"Perform mental surgery on a creature's mind, making it your loyal companion for good.  The creature must already be friendly, either naturally or through Beastmaster, in order to be tamed.\n"
 "\n"
-"<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>."
+"<color_yellow>This power needs a living mind to seize hold of.</color>  Anything alive will do, even the walking dead, slimes, plants and things from the Nether, but <color_light_gray>robots</color> have none, and <color_light_gray>psi-null</color> creatures and enemy telepaths ward their minds against you."
 msgstr ""
-"Проведите мысленную операцию над животным, делая его дружелюбным на гораздо больший срок. Для приручения животное уже должно быть дружелюбным — само по себе или благодаря способностям вроде «Повелителя зверей». Также действует на одичавших людей.\n"
+"Проведите мысленную операцию над разумом существа, навсегда сделав его верным спутником. Для приручения существо уже должно быть дружелюбным — от природы или благодаря способности «Повелитель зверей».\n"
 "\n"
-"<color_yellow>Этой способности нужен разум, за который можно зацепиться.</color> У ходячих мертвецов, роботов и других <color_light_gray>неразумных</color> существ его нет, поэтому способность на них <color_light_gray>совершенно не действует</color>."
+"<color_yellow>Этой способности нужен живой разум, за который можно зацепиться.</color> Подойдёт любое живое существо, даже ходячие мертвецы, слизни, растения и твари из Запределья. У <color_light_gray>роботов</color> разума нет, а <color_light_gray>пси-невосприимчивые</color> существа и вражеские телепаты защищают свой разум от вас."
 
 #. ~ Message for SPELL '[Ψ]Beast Tamer'
 #: spells/telepathy.json
-msgid "The animal sniffs at your palm."
-msgstr "Животное обнюхивает вашу ладонь."
-
-#: spells/telepathy.json
-msgid "[Ψ]Mind Control"
-msgstr "[Ψ]Контроль разума"
-
-#. ~ Description for [Ψ]Mind Control
-#: spells/telepathy.json
-msgid "Seize control of the target's mind, forcing them to do your bidding."
-msgstr "Захватите разум цели, заставив её исполнять вашу волю."
-
-#. ~ Message for SPELL '[Ψ]Mind Control'
-#: spells/telepathy.json
-msgid "You take control of your target's mind!"
-msgstr "Вы подчиняете себе разум цели!"
+msgid "The creature's mind settles under your hand."
+msgstr "Разум существа успокаивается под вашим воздействием."
 
 #: spells/telepathy.json
 msgid "[Ψ]Network Effect"
@@ -24833,16 +24269,23 @@ msgstr "[Ψ]Сетевой эффект"
 
 #. ~ Description for [Ψ]Network Effect
 #: spells/telepathy.json
+#| msgid ""
+#| "Forge an unconscious telepathic network between you and nearby allies, "
+#| "allowing you all to send and receive information about nearby dangers and "
+#| "react more quickly in combat.  The network requires at least one ally nearby"
+#| " to be effective."
 msgid ""
 "Forge an unconscious telepathic network between you and nearby allies, "
 "allowing you all to send and receive information about nearby dangers and "
 "react more quickly in combat.  The network requires at least one ally nearby"
-" to be effective."
+" to be effective; pets count, and linked pets move faster and dodge and "
+"strike more surely."
 msgstr ""
 "Создайте телепатическую сеть между собой и ближайшими союзниками, чтобы "
 "обмениваться сведениями об опасностях на подсознательном уровне и быстрее "
 "реагировать в бою. Для работы сети поблизости должен быть хотя бы один "
-"союзник."
+"союзник. Питомцы тоже считаются союзниками; соединённые сетью питомцы "
+"быстрее передвигаются, лучше уклоняются и точнее бьют."
 
 #: spells/teleportation.json
 msgid "[Ψ]Blink"
@@ -25325,11 +24768,810 @@ msgstr "Вы тратите немного времени на запомина�
 msgid "Medical Cart"
 msgstr "медицинская тележка"
 
+#~ msgid "Tapayaxitilmàtli"
+#~ msgstr "«Плащ хамелеона»"
+
+#~ msgid ""
+#~ "Implants under your skin throughout your body that bend light around you "
+#~ "when activated, making it much harder to spot you from a distance.  While "
+#~ "not invisibility, it can keep you unseen when it counts.  Activate to toggle"
+#~ " on."
+#~ msgstr ""
+#~ "Подкожные имплантаты по всему телу при активации преломляют свет, и заметить"
+#~ " вас на расстоянии становится гораздо труднее. Полной невидимости они не "
+#~ "дают, но могут скрыть вас в нужный момент. Активируйте, чтобы включить."
+
+#~ msgid "Ohuicatlachiyaliztimeh"
+#~ msgstr "Оуикатлачиялистиме"
+
+#~ msgid ""
+#~ "Minute quantities of matrix crystal interface with your optic nerves, "
+#~ "allowing you to detect the presence of living beings that seek to do you "
+#~ "harm.  Activate to toggle on."
+#~ msgstr ""
+#~ "Мельчайшие частицы матричного кристалла взаимодействуют с вашими зрительными"
+#~ " нервами, позволяя чувствовать присутствие живых существ, которые хотят "
+#~ "причинить вам вред. Активируйте, чтобы включить."
+
+#~ msgid "Tlacuallichicahualiztli Transformer"
+#~ msgstr "Трансформатор Тлакуалличикауалистли"
+
+#~ msgid ""
+#~ "Your digestive system and power supply are interconnected; bionic energy is "
+#~ "replenished by burning calories.  Can be toggled on and off at will."
+#~ msgstr ""
+#~ "Связывает вашу пищеварительную систему с бионической энергосистемой, "
+#~ "позволяя пополнять запас энергии за счёт калорий. Модуль можно включать и "
+#~ "выключать по желанию."
+
+#~ msgid "Teōchicāhualiztli Booster"
+#~ msgstr "«Божественная сила»"
+
+#~ msgid ""
+#~ "A series of implants along your skeleton and in major muscle groups can be "
+#~ "activated to greatly increase your strength and agility.  Activate to toggle"
+#~ " on."
+#~ msgstr ""
+#~ "Импланты вдоль скелета и в основных группах мышц при активации значительно "
+#~ "повышают вашу силу и ловкость. Активируйте, чтобы включить."
+
+#~ msgid "Ikpitikayotecontli System"
+#~ msgstr "Система Икпитикайотеконтли"
+
+#~ msgid "A Compact Bionics Module that increases your power capacity by 600 kJ."
+#~ msgstr ""
+#~ "Компактный бионический модуль, увеличивающий вашу энергоёмкость на 600 кДж."
+
+#~ msgid "ichcayolli"
+#~ msgstr "ичкайолли"
+
+#~ msgid "ripped"
+#~ msgstr "порвано"
+
+#~ msgid "cut"
+#~ msgstr "порезано"
+
+#~ msgid "torn"
+#~ msgstr "разорванный"
+
+#~ msgid "shredded"
+#~ msgstr "изодранный"
+
+#~ msgid "tattered"
+#~ msgstr "изорванный"
+
+#~ msgctxt "profession_male"
+#~ msgid "Itzcuāuhtli Corps Liaison, Yohualli Ehēcatl Division"
+#~ msgstr "Связной корпуса «Обсидиановый орёл», дивизия «Ночь и ветер»"
+
+#~ msgctxt "profession_female"
+#~ msgid "Itzcuāuhtli Corps Liaison, Yohualli Ehēcatl Division"
+#~ msgstr "Связная корпуса «Обсидиановый орёл», дивизия «Ночь и ветер»"
+
+#~ msgctxt "prof_desc_male"
+#~ msgid ""
+#~ "The last thing you remember was inputting the jump coordinates into the "
+#~ "tliltilhuicaātl drive and reaching out to initiate the transfer when there "
+#~ "was a power surge and it felt like the entire ship was turning inside out.  "
+#~ "Now, you have no idea where you are."
+#~ msgstr ""
+#~ "Последнее, что ты помнишь: вводишь координаты прыжка в двигатель "
+#~ "Тлилтильуикаатль и тянешься запустить переход, когда происходит скачок "
+#~ "энергии и кажется, будто весь корабль выворачивается наизнанку. Теперь ты "
+#~ "понятия не имеешь, где находишься."
+
+#~ msgctxt "prof_desc_female"
+#~ msgid ""
+#~ "The last thing you remember was inputting the jump coordinates into the "
+#~ "tliltilhuicaātl drive and reaching out to initiate the transfer when there "
+#~ "was a power surge and it felt like the entire ship was turning inside out.  "
+#~ "Now, you have no idea where you are."
+#~ msgstr ""
+#~ "Последнее, что ты помнишь: вводишь координаты прыжка в двигатель "
+#~ "Тлилтильуикаатль и тянешься запустить переход, когда происходит скачок "
+#~ "энергии и кажется, будто весь корабль выворачивается наизнанку. Теперь ты "
+#~ "понятия не имеешь, где находишься."
+
+#~ msgctxt "profession_male"
+#~ msgid "Cuāuhpilli Special Forces"
+#~ msgstr "Боец спецназа Куаупилли"
+
+#~ msgctxt "profession_female"
+#~ msgid "Cuāuhpilli Special Forces"
+#~ msgstr "Боец спецназа Куаупилли"
+
+#~ msgctxt "prof_desc_male"
+#~ msgid ""
+#~ "You were on guard duty when the ship was preparing to enter Tliltilhuicaātl "
+#~ "and had just braced for the jump when something went wrong.  The ship seemed"
+#~ " like it was turning inside out, then you seemed like you were turning "
+#~ "inside out, and suddenly you were planetside in the ruins of a dying world."
+#~ "  You've served the Excān Tlahtōlōyān on a dozen worlds, taken five "
+#~ "captives, and even have clearance for contact with huecachane civilizations,"
+#~ " but none of that has prepared you for the Cataclysm"
+#~ msgstr ""
+#~ "Ты стоял на карауле, пока корабль готовился войти в Тлилтильуикаатль, и "
+#~ "только приготовился к прыжку, как что-то пошло не так. Сперва будто "
+#~ "вывернуло наизнанку корабль, затем тебя, а потом ты вдруг оказался на "
+#~ "поверхности планеты, среди руин умирающего мира. Ты служил Тройственному "
+#~ "союзу на дюжине миров, взял пятерых пленников и даже имеешь допуск к "
+#~ "контактам с цивилизациями уэкачане, но ничто не подготовило тебя к "
+#~ "Катаклизму"
+
+#~ msgctxt "prof_desc_female"
+#~ msgid ""
+#~ "You were on guard duty when the ship was preparing to enter Tliltilhuicaātl "
+#~ "and had just braced for the jump when something went wrong.  The ship seemed"
+#~ " like it was turning inside out, then you seemed like you were turning "
+#~ "inside out, and suddenly you were planetside in the ruins of a dying world."
+#~ "  You've served the Excān Tlahtōlōyān on a dozen worlds, taken five "
+#~ "captives, and even have clearance for contact with huecachane civilizations,"
+#~ " but none of that has prepared you for the Cataclysm"
+#~ msgstr ""
+#~ "Ты стояла на карауле, пока корабль готовился войти в Тлилтильуикаатль, и "
+#~ "только приготовилась к прыжку, как что-то пошло не так. Сперва будто "
+#~ "вывернуло наизнанку корабль, затем тебя, а потом ты вдруг оказалась на "
+#~ "поверхности планеты, среди руин умирающего мира. Ты служила Тройственному "
+#~ "союзу на дюжине миров, взяла пятерых пленников и даже имеешь допуск к "
+#~ "контактам с цивилизациями уэкачане, но ничто не подготовило тебя к "
+#~ "Катаклизму"
+
+#~ msgctxt "scenario_male"
+#~ msgid "Dimension-Lost"
+#~ msgstr "Затерянный в измерениях"
+
+#~ msgctxt "scenario_female"
+#~ msgid "Dimension-Lost"
+#~ msgstr "Затерянная в измерениях"
+
+#~ msgctxt "scen_desc_male"
+#~ msgid ""
+#~ "You don't understand what happened.  You were readying for a routine jump at"
+#~ " the Far Hebrides transfer point when there was a power cascade in the drive"
+#~ " and now you're here, on some other version of Tlalticpactli that may as "
+#~ "well be one of the worse levels of Mictlān.  You need to find your way back "
+#~ "home, but first you need to find a way to survive."
+#~ msgstr ""
+#~ "Ты не понимаешь, что произошло. Ты готовился к обычному прыжку на "
+#~ "перевалочном пункте Дальних Гебрид, когда в приводе начался энергетический "
+#~ "каскад, и теперь ты здесь, в какой-то другой версии Тлальтикпактли, которая "
+#~ "вполне сойдёт за один из худших уровней Миктлана. Тебе нужно найти путь "
+#~ "домой, но сначала — способ выжить."
+
+#~ msgctxt "scen_desc_female"
+#~ msgid ""
+#~ "You don't understand what happened.  You were readying for a routine jump at"
+#~ " the Far Hebrides transfer point when there was a power cascade in the drive"
+#~ " and now you're here, on some other version of Tlalticpactli that may as "
+#~ "well be one of the worse levels of Mictlān.  You need to find your way back "
+#~ "home, but first you need to find a way to survive."
+#~ msgstr ""
+#~ "Ты не понимаешь, что произошло. Ты готовилась к обычному прыжку на "
+#~ "перевалочном пункте Дальних Гебрид, когда в приводе начался энергетический "
+#~ "каскад, и теперь ты здесь, в какой-то другой версии Тлальтикпактли, которая "
+#~ "вполне сойдёт за один из худших уровней Миктлана. Тебе нужно найти путь "
+#~ "домой, но сначала — способ выжить."
+
+#~ msgctxt "start_name"
+#~ msgid "???"
+#~ msgstr "???"
+
+#~ msgid "Dead Fifth Sun Achievement Trap"
+#~ msgstr "Ловушка достижения «Мёртвое Пятое Солнце»"
+
 #~ msgid "You are nearly invincible."
 #~ msgstr "Вы почти неуязвимы."
 
 #~ msgid "The air loses its structure and you are vulnerable once again."
 #~ msgstr "Воздух теряет упорядоченность, и вы снова уязвимы."
+
+#~ msgid "Strange Eye CBM"
+#~ msgid_plural "Strange Eye CBMs"
+#~ msgstr[0] "КБМ: Странный глаз"
+#~ msgstr[1] "КБМ: Странный глаз"
+#~ msgstr[2] "КБМ: Странный глаз"
+
+#~ msgid ""
+#~ "You can tell this CBM is meant to be installed around your eyes, but what "
+#~ "exactly it will do, you have no idea."
+#~ msgstr ""
+#~ "Понятно, что этот КБМ предназначен для установки вокруг ваших глаз, но что "
+#~ "именно он делает, вы понятия не имеете."
+
+#~ msgid "Ohuicatlachiyaliztimeh CBM"
+#~ msgid_plural "Ohuicatlachiyaliztimeh CBMs"
+#~ msgstr[0] "КБМ: Оуикатлачиялистиме"
+#~ msgstr[1] "КБМ: Оуикатлачиялистиме"
+#~ msgstr[2] "КБМ: Оуикатлачиялистиме"
+
+#~ msgid ""
+#~ "A set of Ohuicatlachiyaliztimeh, this CBM uses matrix technology to detect "
+#~ "hostility from nearby targets, acting as an infallible IFF."
+#~ msgstr ""
+#~ "Набор имплантов «Оуикатлачиялистиме». Этот КБМ использует матричную "
+#~ "технологию для обнаружения враждебности ближайших целей, служа безошибочной "
+#~ "системой «свой — чужой»."
+
+#~ msgid "Ikpitikayotecontli System CBM"
+#~ msgid_plural "Ikpitikayotecontli System CBMs"
+#~ msgstr[0] "КБМ: Система Икпитикайотеконтли"
+#~ msgstr[1] "КБМ: Система Икпитикайотеконтли"
+#~ msgstr[2] "КБМ: Система Икпитикайотеконтли"
+
+#~ msgid ""
+#~ "An extremely-efficent form of bionic power storage, using integral matrix "
+#~ "dust to increase the efficiency of possible storage multiple times."
+#~ msgstr ""
+#~ "Чрезвычайно эффективный накопитель бионической энергии: встроенная матричная"
+#~ " пыль позволяет в несколько раз увеличить его вместимость."
+
+#~ msgid "Tlacuallichicahualiztli Transformer CBM"
+#~ msgid_plural "Tlacuallichicahualiztli Transformer CBMs"
+#~ msgstr[0] "КБМ: Трансформатор Тлакуалличикауалистли"
+#~ msgstr[1] "КБМ: Трансформатор Тлакуалличикауалистли"
+#~ msgstr[2] "КБМ: Трансформатор Тлакуалличикауалистли"
+
+#~ msgid ""
+#~ "A connection between the user's metabolism and their power storage allows "
+#~ "this CBM to convert burned calories into bionic energy."
+#~ msgstr ""
+#~ "Связь между обменом веществ пользователя и накопителем энергии позволяет "
+#~ "этому КБМ преобразовывать сжигаемые калории в бионическую энергию."
+
+#~ msgid "Teōchicāhualiztli Booster CBM"
+#~ msgid_plural "Teōchicāhualiztli Booster CBMs"
+#~ msgstr[0] "КБМ: Бустер «Божественная сила»"
+#~ msgstr[1] "КБМ: Бустер «Божественная сила»"
+#~ msgstr[2] "КБМ: Бустер «Божественная сила»"
+
+#~ msgid ""
+#~ "A series of implants along the skeleton and in major muscle groups allow a "
+#~ "dramatic increase in the user's strength and agility."
+#~ msgstr ""
+#~ "Ряд имплантов вдоль скелета и в основных группах мышц позволяет значительно "
+#~ "увеличить силу и ловкость пользователя."
+
+#~ msgid "Tapayaxitilmàtli CBM"
+#~ msgid_plural "Tapayaxitilmàtli CBMs"
+#~ msgstr[0] "КБМ: «Плащ хамелеона»"
+#~ msgstr[1] "КБМ: «Плащ хамелеона»"
+#~ msgstr[2] "КБМ: «Плащ хамелеона»"
+
+#~ msgid ""
+#~ "Implants under the skin throughout the body that bend light when activated, "
+#~ "making it much harder to spot the user from a distance."
+#~ msgstr ""
+#~ "Подкожные импланты по всему телу, которые при активации искривляют свет, "
+#~ "благодаря чему пользователя гораздо труднее заметить издалека."
+
+#~ msgid "note with strange writing"
+#~ msgid_plural "notes with strange writing"
+#~ msgstr[0] "записка со странными письменами"
+#~ msgstr[1] "записки со странными письменами"
+#~ msgstr[2] "записок со странными письменами"
+
+#~ msgid ""
+#~ "A piece of half-crumpled paper with writing on it.  You'd need to take a "
+#~ "closer look to figure out what it says."
+#~ msgstr ""
+#~ "Наполовину смятый листок бумаги с надписью. Нужно рассмотреть его "
+#~ "внимательнее, чтобы понять, что там написано."
+
+#~ msgid "Ch47 Fusion Pistol"
+#~ msgid_plural "Ch47 Fusion Pistols"
+#~ msgstr[0] "термоядерный пистолет Ch47"
+#~ msgstr[1] "термоядерных пистолета Ch47"
+#~ msgstr[2] "термоядерных пистолетов Ch47"
+
+#~ msgid ""
+#~ "The standard-issue officer's sidearm for the Imperial Navy, guaranteed "
+#~ "manufactured on Tlalticpactli itself by scions of the Huey Calpulli, the "
+#~ "Ch47 replaced the earlier Ch41 and is widely renowned for its accuracy and "
+#~ "ease of maintenance.  This particular Ch47 even bears an eagle and snake on "
+#~ "the grip, indicating it was produced in a factory in Anáhuac.  Hopefully "
+#~ "it'll make a good melee weapon as well."
+#~ msgstr ""
+#~ "Штатное личное оружие офицеров Имперского флота, с гарантией изготовленное "
+#~ "на самом Тлальтикпактли потомками Великих кальпулли. Ch47 сменил прежний "
+#~ "Ch41 и широко известен точностью и простотой обслуживания. На рукояти этого "
+#~ "Ch47 даже есть орёл и змея — знак производства на заводе в Анауаке. Остаётся"
+#~ " надеяться, что он сгодится и для ближнего боя."
+
+#~ msgid "Ch47 power pack"
+#~ msgid_plural "Ch47 power packs"
+#~ msgstr[0] "блок питания Ch47"
+#~ msgstr[1] "блока питания Ch47"
+#~ msgstr[2] "блоков питания Ch47"
+
+#~ msgid "A power pack for the Ch47."
+#~ msgstr "Блок питания для Ch47."
+
+#~ msgid "Ch47 power cartridge"
+#~ msgid_plural "Ch47 power cartridges"
+#~ msgstr[0] "энергокартридж Ch47"
+#~ msgstr[1] "энергокартриджа Ch47"
+#~ msgstr[2] "энергокартриджей Ch47"
+
+#~ msgid ""
+#~ "Power cartridges for the Ch47.  You had better make every shot count, "
+#~ "because there's no way you're finding any more of these."
+#~ msgstr ""
+#~ "Энергокартриджи для Ch47. Постарайтесь не тратить ни выстрела зря: больше "
+#~ "таких вам точно не найти."
+
+#~ msgid "Ch47 fusion shot"
+#~ msgstr "термоядерный выстрел Ch47"
+
+#~ msgid "bootleg Ch47 power cartridge"
+#~ msgid_plural "bootleg Ch47 power cartridges"
+#~ msgstr[0] "нелицензионный энергокартридж Ch47"
+#~ msgstr[1] "нелицензионных энергокартриджа Ch47"
+#~ msgstr[2] "нелицензионных энергокартриджей Ch47"
+
+#~ msgid ""
+#~ "A hand-built substitute for the real thing: a battery cell and a pinch of "
+#~ "thermite crammed into a shop-milled casing.  It'll cycle through the Ch47 "
+#~ "just fine, but without the genuine fusion-cell chemistry behind it, the "
+#~ "discharge is weaker and noticeably less precise."
+#~ msgstr ""
+#~ "Самодельный аналог оригинального энергокартриджа: батарейка и щепотка "
+#~ "термита в корпусе, выточенном в мастерской. В Ch47 он работает исправно, но "
+#~ "без настоящей термоядерной ячейки разряд слабее и заметно менее точен."
+
+#~ msgid "M12 \"Cochmamauhtia\" Pistol"
+#~ msgid_plural "M12 \"Cochmamauhtia\" Pistols"
+#~ msgstr[0] "пистолет M12 «Кошмар»"
+#~ msgstr[1] "пистолета M12 «Кошмар»"
+#~ msgstr[2] "пистолетов M12 «Кошмар»"
+
+#~ msgid ""
+#~ "The M12 was designed as a less-than-lethal alternative to more dangerous "
+#~ "forms of crowd pacification, able to disable a target for up to a minute "
+#~ "with a single shot and few to no permanent effects.  While it cannot be said"
+#~ " to be nonlethal because it is not safe to use on targets with heart "
+#~ "conditions or epilepsy, it is a great improvement over the previous X04 "
+#~ "\"Tecuacuilli\" which, on unfortunately not-rare-enough occasions, could "
+#~ "cause permanent paralysis.  On this world, though, you don't think the M12's"
+#~ " lethality or lack thereof is going to be much of a concern."
+#~ msgstr ""
+#~ "M12 создавался как менее смертоносная альтернатива опасным средствам "
+#~ "усмирения толпы: один выстрел выводит цель из строя на срок до минуты почти "
+#~ "без долгосрочных последствий. Несмертельным его всё же не назвать: он опасен"
+#~ " для людей с болезнями сердца или эпилепсией, однако это большой шаг вперёд "
+#~ "по сравнению с прежним X04 «Идол», который, к сожалению, не так уж редко "
+#~ "вызывал необратимый паралич. Впрочем, в этом мире смертельность M12 вряд ли "
+#~ "будет вас особенно заботить."
+
+#~ msgid "M12 power pack"
+#~ msgid_plural "M12 power packs"
+#~ msgstr[0] "блок питания M12"
+#~ msgstr[1] "блока питания M12"
+#~ msgstr[2] "блоков питания M12"
+
+#~ msgid "A power pack for the M12."
+#~ msgstr "Энергоблок для M12."
+
+#~ msgid "M12 power cartridge"
+#~ msgid_plural "M12 power cartridges"
+#~ msgstr[0] "энергокартридж M12"
+#~ msgstr[1] "энергокартриджа M12"
+#~ msgstr[2] "энергокартриджей M12"
+
+#~ msgid ""
+#~ "Power cartridges for the M12.  You had better make every shot count, because"
+#~ " there's no way you're finding any more of these."
+#~ msgstr ""
+#~ "Энергокартриджи для M12. Постарайтесь не тратить ни выстрела зря: больше "
+#~ "таких вам точно не найти."
+
+#~ msgid "M12 neural shot"
+#~ msgstr "нейронный выстрел M12"
+
+#~ msgid "bootleg M12 power cartridge"
+#~ msgid_plural "bootleg M12 power cartridges"
+#~ msgstr[0] "нелицензионный энергокартридж M12"
+#~ msgstr[1] "нелицензионных энергокартриджа M12"
+#~ msgstr[2] "нелицензионных энергокартриджей M12"
+
+#~ msgid ""
+#~ "A crude reload for the M12: a battery cell and a loop of scavenged wire "
+#~ "packed into a resized casing.  Enough of a jolt to cycle the pistol, but a "
+#~ "rougher, less focused shock than the real cartridge delivers."
+#~ msgstr ""
+#~ "Примитивный энергетический картридж для M12: батарейка и петля проволоки из "
+#~ "подручного лома в корпусе, подогнанном под нужный размер. Заряда хватает для"
+#~ " работы пистолета, но удар получается грубее и менее направленным, чем у "
+#~ "настоящего картриджа."
+
+#~ msgid "G-Tz77 \"Tlapetlaniliztli\" battle rifle"
+#~ msgid_plural "G-Tz77 \"Tlapetlaniliztli\" battle rifles"
+#~ msgstr[0] "боевая винтовка G-Tz77 «Молния»"
+#~ msgstr[1] "боевые винтовки G-Tz77 «Молния»"
+#~ msgstr[2] "боевых винтовок G-Tz77 «Молния»"
+
+#~ msgid ""
+#~ "A shipboard battle rifle, whose non-kinetic ammunition was designed to avoid"
+#~ " puncturing ship hulls during engagements.  The G-Tz77 has been a mainstay "
+#~ "of the Imperial Navy for decades at this point and seen service on the "
+#~ "surface of and in orbit around dozens of worlds.  This is just one more in "
+#~ "its long history of protecting the Ēxcān Tlahtōlōyān."
+#~ msgstr ""
+#~ "Корабельная боевая винтовка с некинетическими боеприпасами, разработанными "
+#~ "так, чтобы не пробивать обшивку кораблей во время боя. G-Tz77 десятилетиями "
+#~ "остаётся одним из основных видов оружия Имперского флота и служила на "
+#~ "поверхности и орбитах десятков миров. Это лишь очередная глава её долгой "
+#~ "истории защиты Тройственного союза."
+
+#~ msgid "auto"
+#~ msgstr "авто"
+
+#~ msgid "G-Tz77 power pack"
+#~ msgid_plural "G-Tz77 power packs"
+#~ msgstr[0] "энергоблок G-Tz77"
+#~ msgstr[1] "энергоблока G-Tz77"
+#~ msgstr[2] "энергоблоков G-Tz77"
+
+#~ msgid "A power pack for the G-Tz77."
+#~ msgstr "Энергоблок для G-Tz77."
+
+#~ msgid "G-Tz77 power cartridge"
+#~ msgid_plural "G-Tz77 power cartridges"
+#~ msgstr[0] "энергокартридж G-Tz77"
+#~ msgstr[1] "энергокартриджа G-Tz77"
+#~ msgstr[2] "энергокартриджей G-Tz77"
+
+#~ msgid ""
+#~ "Power cartridges for the G-Tz77.  You had better make every shot count, "
+#~ "because there's no way you're finding any more of these."
+#~ msgstr ""
+#~ "Энергокартриджи для G-Tz77. Постарайтесь не тратить ни выстрела зря: больше "
+#~ "таких вам точно не найти."
+
+#~ msgid "bootleg G-Tz77 power cartridge"
+#~ msgid_plural "bootleg G-Tz77 power cartridges"
+#~ msgstr[0] "нелицензионный энергокартридж G-Tz77"
+#~ msgstr[1] "нелицензионных энергокартриджа G-Tz77"
+#~ msgstr[2] "нелицензионных энергокартриджей G-Tz77"
+
+#~ msgid ""
+#~ "A hand-wound substitute cartridge for the G-Tz77: a battery cell and a coil "
+#~ "of copper wire, with none of the genuine cartridge's exotic resonator "
+#~ "inside.  It still throws a real jolt, but noticeably weaker and less precise"
+#~ " than the genuine article."
+#~ msgstr ""
+#~ "Самодельный заменитель патрона для G-Tz77: батарейка и намотанная вручную "
+#~ "катушка медной проволоки без экзотического резонатора настоящего патрона. Он"
+#~ " по-прежнему бьёт ощутимым разрядом, но заметно слабее и менее точно, чем "
+#~ "оригинал."
+
+#~ msgid "tlapetlaniliztli ammo"
+#~ msgstr "патроны для «Молнии»"
+
+#~ msgid "Imperial Navy battle helmet"
+#~ msgid_plural "Imperial Navy battle helmets"
+#~ msgstr[0] "боевой шлем Имперского флота"
+#~ msgstr[1] "боевых шлема Имперского флота"
+#~ msgstr[2] "боевых шлемов Имперского флота"
+
+#~ msgid "You flip the switch and activate the helmet's functions."
+#~ msgstr "Вы щёлкаете переключателем и включаете функции шлема."
+
+#~ msgid ""
+#~ "An all-encompassing helmet, standard issue for Imperial warrior orders.  "
+#~ "Containing integral hearing protection and air filtration while still "
+#~ "leaving your mouth free, highlights distant targets to provide easier "
+#~ "targeting in battlefield conditions, has integral nightvision and thermal "
+#~ "sensing, provides some protection against telepathic assault, and looks "
+#~ "great while doing it.  This one has the eagle and stars of the Itzcuāuhtli "
+#~ "Corps on it."
+#~ msgstr ""
+#~ "Закрытый шлем, штатный для имперских воинских орденов. В нём есть встроенная"
+#~ " защита слуха и фильтрация воздуха, хотя рот остаётся открытым. Он "
+#~ "подсвечивает дальние цели для удобства прицеливания в бою, оснащён ночным и "
+#~ "тепловым зрением, немного защищает от телепатических атак и при этом отлично"
+#~ " выглядит. На этом шлеме изображены орёл и звёзды корпуса «Обсидиановый "
+#~ "орёл»."
+
+#~ msgid "Imperial Navy battle helmet (active)"
+#~ msgid_plural "Imperial Navy battle helmets (active)"
+#~ msgstr[0] "боевой шлем Имперского флота (вкл.)"
+#~ msgstr[1] "боевых шлема Имперского флота (вкл.)"
+#~ msgstr[2] "боевых шлемов Имперского флота (вкл.)"
+
+#~ msgid "You flip the switch and deactivate the helmet's functions."
+#~ msgstr "Вы щёлкаете переключателем и отключаете функции шлема."
+
+#~ msgid ""
+#~ "An all-encompassing helmet, standard issue for Imperial warrior orders.  "
+#~ "Containing integral hearing protection and air filtration while still "
+#~ "leaving your mouth free, highlights distant targets to provide easier "
+#~ "targeting in battlefield conditions, has integral nightvision and thermal "
+#~ "sensing, provides some protection against telepathic assault, and looks "
+#~ "great while doing it.  This one has the eagle and stars of the Itzcuāuhtli "
+#~ "Corps on it.  It is currently active."
+#~ msgstr ""
+#~ "Закрытый шлем, штатный для имперских воинских орденов. В нём есть встроенная"
+#~ " защита слуха и фильтрация воздуха, хотя рот остаётся открытым. Он "
+#~ "подсвечивает дальние цели для удобства прицеливания в бою, оснащён ночным и "
+#~ "тепловым зрением, немного защищает от телепатических атак и при этом отлично"
+#~ " выглядит. На этом шлеме изображены орёл и звёзды корпуса «Обсидиановый "
+#~ "орёл». Сейчас он включён."
+
+#~ msgid "pāncahcallō torso armor"
+#~ msgid_plural "sets of pāncahcallō torso armor"
+#~ msgstr[0] "доспех панкакалло"
+#~ msgstr[1] "доспеха панкакалло"
+#~ msgstr[2] "доспехов панкакалло"
+
+#~ msgid "You flip the switch and activate the ehēcatepantli barrier."
+#~ msgstr "Вы щёлкаете переключателем и включаете барьер эекатепантли."
+
+#~ msgid ""
+#~ "A set of torso and upper-arm armor made with mixed leather overlaid with "
+#~ "sheets of ichcayolli, pāncahcallō armor derives its effectiveness from the "
+#~ "integral generator capable of projecting an ehēcatepantli barrier that "
+#~ "provides most of the armor's protection."
+#~ msgstr ""
+#~ "Доспех панкакалло для торса и верхней части рук изготовлен из разных видов "
+#~ "кожи, покрытых пластинами ичкайолли. Основную защиту обеспечивает встроенный"
+#~ " генератор барьера эекатепантли."
+
+#~ msgid "pāncahcallō torso armor (active)"
+#~ msgid_plural "sets of pāncahcallō torso armor (active)"
+#~ msgstr[0] "доспех панкакалло (вкл.)"
+#~ msgstr[1] "доспеха панкакалло (вкл.)"
+#~ msgstr[2] "доспехов панкакалло (вкл.)"
+
+#~ msgid "You flip the switch and deactivate the ehēcatepantli barrier."
+#~ msgstr "Вы щёлкаете переключателем и отключаете барьер эекатепантли."
+
+#~ msgid ""
+#~ "A set of torso and upper-arm armor made with mixed leather overlaid with "
+#~ "sheets of ichcayolli, pāncahcallō armor derives its effectiveness from the "
+#~ "integral generator capable of projecting an ehēcatepantli barrier that "
+#~ "provides most of the armor's protection.  The ehēcatepantli is currently "
+#~ "active."
+#~ msgstr ""
+#~ "Доспех панкакалло для торса и верхней части рук изготовлен из разных видов "
+#~ "кожи, покрытых пластинами ичкайолли. Основную защиту обеспечивает встроенный"
+#~ " генератор барьера эекатепантли. Сейчас барьер эекатепантли включён."
+
+#~ msgid "strange body armor"
+#~ msgid_plural "sets of strange body armor"
+#~ msgstr[0] "странный защитный костюм"
+#~ msgstr[1] "странных защитных костюма"
+#~ msgstr[2] "странных защитных костюмов"
+
+#~ msgid "You flip the switch."
+#~ msgstr "Вы щёлкаете переключателем."
+
+#~ msgid ""
+#~ "A set of leather armor covered in some kind of very stiff white cloth.  A "
+#~ "small textured box is attached to the left side, easily accessible with "
+#~ "either hand.  The box has a switch of some kind and several odd pictographs "
+#~ "around the switch."
+#~ msgstr ""
+#~ "Кожаный защитный костюм, покрытый какой-то очень жёсткой белой тканью. Слева"
+#~ " прикреплена небольшая коробка с рельефной поверхностью, до которой легко "
+#~ "дотянуться любой рукой. На коробке есть некий переключатель, а вокруг него —"
+#~ " несколько странных пиктограмм."
+
+#~ msgid "strange body armor (active)"
+#~ msgid_plural "sets of strange body armor (active)"
+#~ msgstr[0] "странный защитный костюм (вкл.)"
+#~ msgstr[1] "странных защитных костюма (вкл.)"
+#~ msgstr[2] "странных защитных костюмов (вкл.)"
+
+#~ msgid ""
+#~ "A set of leather armor covered in some kind of very stiff white cloth.  A "
+#~ "small textured box is attached to the left side, easily accessible with "
+#~ "either hand.  The box has a switch of some kind and several odd pictographs "
+#~ "around the switch.  The switch is currently flipped."
+#~ msgstr ""
+#~ "Кожаный защитный костюм, покрытый какой-то очень жёсткой белой тканью. Слева"
+#~ " прикреплена небольшая коробка с рельефной поверхностью, до которой легко "
+#~ "дотянуться любой рукой. На коробке есть некий переключатель, а вокруг него —"
+#~ " несколько странных пиктограмм. Сейчас переключатель переведён в другое "
+#~ "положение."
+
+#~ msgid "Itzcuāuhtli Corps tilmàtli"
+#~ msgid_plural "Itzcuāuhtli Corps tilmàtli"
+#~ msgstr[0] "тильма корпуса «Обсидиановый орёл»"
+#~ msgstr[1] "тильмы корпуса «Обсидиановый орёл»"
+#~ msgstr[2] "тильм корпуса «Обсидиановый орёл»"
+
+#~ msgid ""
+#~ "A formal dress cape for the Itzcuāuhtli Corps in crimson and gold, with the "
+#~ "eagle's head over a field of stars insignia on the left shoulder, worn by "
+#~ "generations of those who sought out new worlds in service to the Huey "
+#~ "Tlatoani and the Ēxcān Tlahtōlōyān.  You're pretty sure this is the furthest"
+#~ " anyone wearing one has ever been from Anáhuac."
+#~ msgstr ""
+#~ "Парадная накидка корпуса «Обсидиановый орёл» багряного и золотого цветов, с "
+#~ "эмблемой орлиной головы на звёздном поле на левом плече. Её носили поколения"
+#~ " первооткрывателей миров на службе Верховного тлатоани и Тройственного "
+#~ "союза. Вы почти уверены, что никто в такой накидке ещё не забирался так "
+#~ "далеко от Анауака."
+
+#~ msgid "Imperial navy cap"
+#~ msgid_plural "Imperial navy caps"
+#~ msgstr[0] "фуражка Имперского флота"
+#~ msgstr[1] "фуражки Имперского флота"
+#~ msgstr[2] "фуражек Имперского флота"
+
+#~ msgid ""
+#~ "A flat crimson hat worn by members of the Imperial navy at formal events.  "
+#~ "This one has the black circle of the Yohualli Ehēcatl on it."
+#~ msgstr ""
+#~ "Плоская багряная фуражка, которую служащие Имперского флота носят на "
+#~ "официальных мероприятиях. На этой изображён чёрный круг дивизии «Ночь и "
+#~ "ветер»."
+
+#~ msgid "Ch47 holster"
+#~ msgid_plural "Ch47 holsters"
+#~ msgstr[0] "кобура Ch47"
+#~ msgstr[1] "кобуры Ch47"
+#~ msgstr[2] "кобур Ch47"
+
+#~ msgid ""
+#~ "A holster for the Ch47.  You could put one of the primitive local ranged "
+#~ "weapons in here too, if you had to."
+#~ msgstr ""
+#~ "Кобура для Ch47. При необходимости в неё можно положить и какое-нибудь "
+#~ "примитивное местное стрелковое оружие."
+
+#~ msgid "M12 holster"
+#~ msgid_plural "M12 holsters"
+#~ msgstr[0] "кобура M12"
+#~ msgstr[1] "кобуры M12"
+#~ msgstr[2] "кобур M12"
+
+#~ msgid ""
+#~ "A holster for the M12.  You could put one of the primitive local ranged "
+#~ "weapons in here too, if you had to."
+#~ msgstr ""
+#~ "Кобура для M12. При необходимости в неё можно положить и какое-нибудь "
+#~ "примитивное местное стрелковое оружие."
+
+#~ msgid "Yohualli Ehēcatl division tunic"
+#~ msgid_plural "Yohualli Ehēcatl division tunics"
+#~ msgstr[0] "мундир дивизии «Ночь и ветер»"
+#~ msgstr[1] "мундира дивизии «Ночь и ветер»"
+#~ msgstr[2] "мундиров дивизии «Ночь и ветер»"
+
+#~ msgid ""
+#~ "A dress tunic, in gold and crimson, slashed with black bars.  This would "
+#~ "immediately mark your exact rank and position to anyone else in the Imperial"
+#~ " Navy, if you ever see another one again."
+#~ msgstr ""
+#~ "Парадный мундир золотого и багряного цветов с чёрными полосами. Любой "
+#~ "служащий Имперского флота сразу определил бы по нему ваше звание и "
+#~ "должность, если вы ещё когда-нибудь встретите кого-то из своих."
+
+#~ msgid "Ocēlōpilli dress tunic"
+#~ msgid_plural "Ocēlōpilli dress tunics"
+#~ msgstr[0] "парадный мундир воина-ягуара"
+#~ msgstr[1] "парадных мундира воина-ягуара"
+#~ msgstr[2] "парадных мундиров воина-ягуара"
+
+#~ msgid ""
+#~ "A dress tunic, in gold and crimson, slashed with yellow bars.  This marks "
+#~ "the wearer as one of the Jaguar Warrior special forces."
+#~ msgstr ""
+#~ "Парадный мундир золотого и багряного цветов с жёлтыми полосами. Он "
+#~ "обозначает принадлежность к спецподразделению воинов-ягуаров."
+
+#~ msgid "Itzcuāuhtli Corps pants"
+#~ msgid_plural "Itzcuāuhtli Corps pants"
+#~ msgstr[0] "брюки корпуса «Обсидиановый орёл»"
+#~ msgstr[1] "пары брюк корпуса «Обсидиановый орёл»"
+#~ msgstr[2] "пар брюк корпуса «Обсидиановый орёл»"
+
+#~ msgid ""
+#~ "A set of gold and crimson uniform pants.  The days of wearing only a "
+#~ "maxtlatl are gone following the expansion of the empire out from Anáhuac, "
+#~ "and considering the local climate, you're grateful for it."
+#~ msgstr ""
+#~ "Форменные брюки золотого и багряного цветов. После выхода империи за пределы"
+#~ " Анауака времена, когда носили одну набедренную повязку, остались в прошлом,"
+#~ " и, учитывая местный климат, вы этому рады."
+
+#~ msgid "naval boots"
+#~ msgid_plural "naval boots"
+#~ msgstr[0] "флотские сапоги"
+#~ msgstr[1] "пары флотских сапог"
+#~ msgstr[2] "пар флотских сапог"
+
+#~ msgid ""
+#~ "Simple black leather boots.  It's a good thing you weren't transporting a "
+#~ "planetary tlatoani when the accident happened or you might have ended up on "
+#~ "this gods-forsaken hellhole barefoot."
+#~ msgstr ""
+#~ "Простые чёрные кожаные сапоги. Хорошо, что в момент аварии вы не перевозили "
+#~ "планетарного тлатоани, иначе могли бы оказаться в этой забытой богами дыре "
+#~ "босиком."
+
+#~ msgid "māchīuhpōhualhuaztli"
+#~ msgid_plural "māchīuhpōhualhuaztimeh"
+#~ msgstr[0] "мачиупоуальуастли"
+#~ msgstr[1] "мачиупоуальуастли"
+#~ msgstr[2] "мачиупоуальуастли"
+
+#~ msgid ""
+#~ "Your trustworthy connection to the local mātlatzālantli, the "
+#~ "māchīuhpōhualhuaztli allows you to store and read texts through tonaltēzcatl"
+#~ " projection, look up info, keep track of your biometrics, play games, record"
+#~ " visuals or sound, connect with far-distant friends and family, act as a "
+#~ "calendar and event planner, and even identify you to agents of the "
+#~ "government or, gods forbid, the Tlamachchiuhqueh, should that become "
+#~ "necessary.  There's nothing to connect to on this blighted world, but the "
+#~ "other functions should still work."
+#~ msgstr ""
+#~ "Ваша надёжная связь с местной матлацалантли. Мачиупоуальуастли позволяет "
+#~ "хранить и читать тексты посредством проекции «Солнечное зеркало», искать "
+#~ "информацию, следить за биометрическими показателями, играть, записывать "
+#~ "изображение и звук, общаться с далёкими друзьями и родными, вести календарь "
+#~ "и планировать дела, а при необходимости даже подтверждать вашу личность "
+#~ "представителям власти или, упаси боги, Тламаччиуке. В этом проклятом мире "
+#~ "подключаться не к чему, но остальные функции должны работать."
+
+#~ msgid "Itzcuāuhtli Corps combat uniform pants"
+#~ msgid_plural "Itzcuāuhtli Corps combat uniform pants"
+#~ msgstr[0] "боевые брюки корпуса «Обсидиановый орёл»"
+#~ msgstr[1] "пары боевых брюк корпуса «Обсидиановый орёл»"
+#~ msgstr[2] "пар боевых брюк корпуса «Обсидиановый орёл»"
+
+#~ msgid ""
+#~ "The standard combat uniform of the Itzcuāuhtli Corps, in shades of dark "
+#~ "green and grey.  These are pants, with several pockets."
+#~ msgstr ""
+#~ "Стандартная боевая форма корпуса «Обсидиановый орёл» в тёмно-зелёных и серых"
+#~ " тонах. Это брюки с несколькими карманами."
+
+#~ msgid "Itzcuāuhtli Corps combat uniform shirt"
+#~ msgid_plural "Itzcuāuhtli Corps combat uniform shirt"
+#~ msgstr[0] "боевая рубашка корпуса «Обсидиановый орёл»"
+#~ msgstr[1] "боевые рубашки корпуса «Обсидиановый орёл»"
+#~ msgstr[2] "боевых рубашек корпуса «Обсидиановый орёл»"
+
+#~ msgid ""
+#~ "The standard combat uniform of the Itzcuāuhtli Corps, in shades of dark "
+#~ "green and grey.  This is a shirt."
+#~ msgstr ""
+#~ "Стандартная боевая форма корпуса «Обсидиановый орёл» в тёмно-зелёных и серых"
+#~ " тонах. Это рубашка."
+
+#~ msgid "Itzcuāuhtli Corps combat uniform jacket"
+#~ msgid_plural "Itzcuāuhtli Corps combat uniform jacket"
+#~ msgstr[0] "боевая куртка корпуса «Обсидиановый орёл»"
+#~ msgstr[1] "боевые куртки корпуса «Обсидиановый орёл»"
+#~ msgstr[2] "боевых курток корпуса «Обсидиановый орёл»"
+
+#~ msgid ""
+#~ "The standard combat uniform of the Itzcuāuhtli Corps, in shades of dark "
+#~ "green and grey.  This is a jacket.  It has the eagle over a field of stars "
+#~ "symbol of the Itzcuāuhtli Corps on both shoulders."
+#~ msgstr ""
+#~ "Стандартная боевая форма корпуса «Обсидиановый орёл» в тёмно-зелёных и серых"
+#~ " тонах. Это куртка. На обоих плечах изображена эмблема корпуса «Обсидиановый"
+#~ " орёл»: орёл на звёздном поле."
+
+#~ msgid "Imperial Church holy symbol"
+#~ msgid_plural "Imperial Church holy symbols"
+#~ msgstr[0] "священный символ Имперской церкви"
+#~ msgstr[1] "священных символа Имперской церкви"
+#~ msgstr[2] "священных символов Имперской церкви"
+
+#~ msgid ""
+#~ "A necklace made of fine gold chain, bearing an image of Jesucristo as the "
+#~ "Ultimate Sacrifice as a pendant, his heart clearly visible through his "
+#~ "chest.  Under his left hand is a raindrop, representing the Aeon Tláloc, and"
+#~ " under his right hand is a sun disc, representing the Aeon Huītzilōpōchtli."
+#~ msgstr ""
+#~ "Ожерелье из тонкой золотой цепочки с подвеской, изображающей Иисуса Христа "
+#~ "как Высшую Жертву: сквозь грудь отчётливо видно его сердце. Под левой рукой "
+#~ "— капля дождя, символ эона Тлалока, под правой — солнечный диск, символ эона"
+#~ " Уицилопочтли."
 
 #~ msgid "compressed chaos"
 #~ msgid_plural "compressed chaos"
@@ -25346,6 +25588,86 @@ msgstr "медицинская тележка"
 #~ "Глядя на него, вы вспоминаете электрическое покалывание в воздухе перед "
 #~ "портальным штормом."
 
+#~ msgid "leech plant"
+#~ msgid_plural "leech plants"
+#~ msgstr[0] "растение-пиявочник"
+#~ msgstr[1] "растения-пиявочника"
+#~ msgstr[2] "растений-пиявочников"
+
+#~ msgid "a leech plant"
+#~ msgstr "растение-пиявочник"
+
+#~ msgid "worm"
+#~ msgid_plural "worms"
+#~ msgstr[0] "червь"
+#~ msgstr[1] "червя"
+#~ msgstr[2] "червей"
+
+#~ msgid "a worm"
+#~ msgstr "червь"
+
+#~ msgid "rustle."
+#~ msgstr "шорох."
+
+#~ msgid "zombie"
+#~ msgid_plural "zombies"
+#~ msgstr[0] "зомби"
+#~ msgstr[1] "зомби"
+#~ msgstr[2] "зомби"
+
+#~ msgid "a zombie"
+#~ msgstr "зомби"
+
+#~ msgid "shuffling."
+#~ msgstr "шарканье."
+
+#~ msgid "fungus"
+#~ msgid_plural "funguss"
+#~ msgstr[0] "гриб"
+#~ msgstr[1] "гриба"
+#~ msgstr[2] "грибов"
+
+#~ msgid "a fungus"
+#~ msgstr "гриб"
+
+#~ msgid "Tonallichicahualizmeya"
+#~ msgstr "Тоналличикауалисмея"
+
+#~ msgid ""
+#~ "You have a matrix in your central nervous system that acts as a universal "
+#~ "control and installation bus for compact bionic modules."
+#~ msgstr ""
+#~ "В вашей центральной нервной системе есть матрица, служащая универсальной "
+#~ "шиной управления и установки компактных бионических модулей."
+
+#~ msgid "Fifth Sun People"
+#~ msgstr "Люди Пятого Солнца"
+
+#~ msgid ""
+#~ "You were born in the Ēxcān Tlahtōlōyān, maybe on Tlalticpactli, perhaps even"
+#~ " in Anáhuac, or maybe on one of the colony worlds like Demeter or Yathrib or"
+#~ " Tài Suì.  You enlisted in the Imperial Navy for your own reasons.  Perhaps "
+#~ "you are a scion of the Huey Calpulli following in your ancestors' footsteps,"
+#~ " or perhaps you are one of the mācēhualtin seeking the social benefits of a "
+#~ "completed tour of military service.  Regardless, now you are here, in the "
+#~ "ashes of a dying world, and have to find a way to survive."
+#~ msgstr ""
+#~ "Твоя родина — Тройственный союз: возможно, Тлальтикпактли, может, даже "
+#~ "Анауак или одна из колоний вроде Деметры, Ясриба или Тай-Суй. У тебя были "
+#~ "свои причины поступить в Имперский флот. Может, ты из рода Великого "
+#~ "кальпулли и следуешь по стопам предков, а может, из числа простолюдинов и "
+#~ "рассчитываешь на социальные льготы после службы. Как бы то ни было, теперь "
+#~ "ты здесь, среди пепла умирающего мира, и тебе нужно найти способ выжить."
+
+#~ msgid "shack"
+#~ msgstr "лачуга"
+
+#~ msgid "shack roof"
+#~ msgstr "крыша лачуги"
+
+#~ msgid "forest"
+#~ msgstr "лес"
+
 #~ msgid ""
 #~ "Contemplate your powers and improve your ability to shield yourself from all harm.\n"
 #~ "\n"
@@ -25360,6 +25682,19 @@ msgstr "медицинская тележка"
 #~ "Текущий уровень способности: <u_spell_level:telekinetic_aegis>"
 
 #~ msgid ""
+#~ "Contemplate your powers and improve your domination of others' minds.\n"
+#~ "\n"
+#~ "Power Difficulty: 8\n"
+#~ "\n"
+#~ "Current Power Level: <u_spell_level:telepathic_mind_control>"
+#~ msgstr ""
+#~ "Созерцайте свои силы и совершенствуйте умение господствовать над чужим разумом.\n"
+#~ "\n"
+#~ "Сложность способности: 8\n"
+#~ "\n"
+#~ "Текущий уровень способности: <u_spell_level:telepathic_mind_control>"
+
+#~ msgid ""
 #~ "You can examine an item and use your enhanced senses to determine its "
 #~ "properties that may not be obvious to the eye."
 #~ msgstr ""
@@ -25368,6 +25703,9 @@ msgstr "медицинская тележка"
 
 #~ msgid "The ground splits and runs molten!"
 #~ msgstr "Земля раскалывается и течёт расплавом!"
+
+#~ msgid "Pickup items at a distance or push them away from you."
+#~ msgstr "Поднимайте предметы на расстоянии или отталкивайте их от себя."
 
 #~ msgid ""
 #~ "Take control of an animal's mind, forcing it to obey you.  This power will not work on insects, spiders, or similar beings.  This also works on feral humans.\n"
@@ -25420,3 +25758,45 @@ msgstr "медицинская тележка"
 
 #~ msgid "The air around you becomes as hard as adamant."
 #~ msgstr "Воздух вокруг вас становится твёрдым, как адамант."
+
+#~ msgid ""
+#~ "Take control of an animal's mind, forcing it to obey you.  This power will not work on insects, spiders, or similar beings.  This also works on feral humans.\n"
+#~ "\n"
+#~ "<color_yellow>This power needs a mind to seize hold of.</color>  The walking dead, robots, and other <color_light_gray>mindless</color> things have none, and are <color_light_gray>wholly unaffected</color>.\n"
+#~ "\n"
+#~ "Level 10 leads to Beast Tamer.\n"
+#~ "Level 8 leads to Mind Control with Mood Stabilization 12 + Primal Terror 5 OR Beastmaster 8 + Mood Stabilization 12 OR Mood Stabilization 12 + Sensory Deprivation 7 OR Obscurity 6 + Primal Terror 5 OR Beastmaster 8 + Obscurity 6 OR Obscurity 6 + Sensory Deprivation 7."
+#~ msgstr ""
+#~ "Подчините разум животного, заставив его повиноваться. Эта способность не действует на насекомых, пауков и подобных существ. Также действует на одичавших людей.\n"
+#~ "\n"
+#~ "<color_yellow>Этой способности нужен разум, за который можно зацепиться.</color> У ходячих мертвецов, роботов и других <color_light_gray>неразумных</color> существ его нет, поэтому способность на них <color_light_gray>совершенно не действует</color>.\n"
+#~ "\n"
+#~ "На 10-м уровне открывается «Укротитель зверей».\n"
+#~ "На 8-м уровне открывается «Контроль разума»; условия: «Стабилизация настроения» 12-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Стабилизация настроения» 12-го уровня ИЛИ «Стабилизация настроения» 12-го уровня + «Сенсорная депривация» 7-го уровня ИЛИ «Незаметность» 6-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Незаметность» 6-го уровня ИЛИ «Незаметность» 6-го уровня + «Сенсорная депривация» 7-го уровня."
+
+#~ msgid ""
+#~ "Use a light touch on others' minds to hide your presence.  You will be invisible to the target(s) while the power is in effect.\n"
+#~ "\n"
+#~ "This power is <color_red>canceled by engaging in combat</color> with your target.\n"
+#~ "\n"
+#~ "Level 6 leads to Mind Control with Mood Stabilization 12 + Primal Terror 5 OR Beastmaster 8 + Mood Stabilization 12 OR Mood Stabilization 12 + Sensory Deprivation 7 OR Obscurity 6 + Primal Terror 5 OR Beastmaster 8 + Obscurity 6 OR Obscurity 6 + Sensory Deprivation 7.\n"
+#~ "Level 6 leads to Network Effect with Mind Sonar 10 + Mood Stabilization 12 + Psychic Scream 6 OR Mind Sonar 10 + Obscurity 6 + Psychic Scream 6."
+#~ msgstr ""
+#~ "Лёгким воздействием на чужие разумы скройте своё присутствие. Пока способность действует, вы будете невидимы для затронутых целей.\n"
+#~ "\n"
+#~ "Эта способность <color_red>прекращает действовать при вступлении в бой</color> с вашей целью.\n"
+#~ "\n"
+#~ "На 6-м уровне открывается «Контроль разума»; условия: «Стабилизация настроения» 12-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Стабилизация настроения» 12-го уровня ИЛИ «Стабилизация настроения» 12-го уровня + «Сенсорная депривация» 7-го уровня ИЛИ «Незаметность» 6-го уровня + «Первобытный ужас» 5-го уровня ИЛИ «Повелитель зверей» 8-го уровня + «Незаметность» 6-го уровня ИЛИ «Незаметность» 6-го уровня + «Сенсорная депривация» 7-го уровня.\n"
+#~ "На 6-м уровне открывается «Сетевой эффект»; условия: «Ментальный сонар» 10-го уровня + «Стабилизация настроения» 12-го уровня + «Псионический крик» 6-го уровня ИЛИ «Ментальный сонар» 10-го уровня + «Незаметность» 6-го уровня + «Псионический крик» 6-го уровня."
+
+#~ msgid "The animal sniffs at your palm."
+#~ msgstr "Животное обнюхивает вашу ладонь."
+
+#~ msgid "[Ψ]Mind Control"
+#~ msgstr "[Ψ]Контроль разума"
+
+#~ msgid "Seize control of the target's mind, forcing them to do your bidding."
+#~ msgstr "Захватите разум цели, заставив её исполнять вашу волю."
+
+#~ msgid "You take control of your target's mind!"
+#~ msgstr "Вы подчиняете себе разум цели!"
